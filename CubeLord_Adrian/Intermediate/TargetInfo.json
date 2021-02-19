@@ -1,0 +1,14 @@
+{
+	"Targets": [
+		{
+			"Name": "CubeLord_Adrian",
+			"Path": "D:\\Dropbox\\_Innlandet\\Game_Design\\CubeLord_Adrian\\Source\\CubeLord_Adrian.Target.cs",
+			"Type": "Game"
+		},
+		{
+			"Name": "CubeLord_AdrianEditor",
+			"Path": "D:\\Dropbox\\_Innlandet\\Game_Design\\CubeLord_Adrian\\Source\\CubeLord_AdrianEditor.Target.cs",
+			"Type": "Editor"
+		}
+	]
+}

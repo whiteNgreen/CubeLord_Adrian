@@ -1,0 +1,1033 @@
+﻿Log file open, 02/19/21 16:31:26
+LogInit: Display: Running engine for game: CubeLord_Adrian
+LogPlatformFile: Not using cached read wrapper
+LogTaskGraph: Started task graph with 5 named threads and 35 total threads with 3 sets of task threads.
+LogStats: Stats thread started at 0.165524
+LogD3D11RHI: Loaded GFSDK_Aftermath_Lib.x64.dll
+LogICUInternationalization: ICU TimeZone Detection - Raw Offset: +1:00, Platform Override: ''
+LogPluginManager: Mounting plugin Paper2D
+LogPluginManager: Mounting plugin AISupport
+LogPluginManager: Mounting plugin LightPropagationVolume
+LogPluginManager: Mounting plugin CameraShakePreviewer
+LogPluginManager: Mounting plugin ActorLayerUtilities
+LogPluginManager: Mounting plugin AnimationSharing
+LogPluginManager: Mounting plugin CLionSourceCodeAccess
+LogPluginManager: Mounting plugin CodeLiteSourceCodeAccess
+LogPluginManager: Mounting plugin GitSourceControl
+LogPluginManager: Mounting plugin KDevelopSourceCodeAccess
+LogPluginManager: Mounting plugin NullSourceCodeAccess
+LogPluginManager: Mounting plugin PerforceSourceControl
+LogPluginManager: Mounting plugin PlasticSourceControl
+LogPluginManager: Mounting plugin RiderSourceCodeAccess
+LogPluginManager: Mounting plugin SubversionSourceControl
+LogPluginManager: Mounting plugin UObjectPlugin
+LogPluginManager: Mounting plugin VisualStudioCodeSourceCodeAccess
+LogPluginManager: Mounting plugin VisualStudioSourceCodeAccess
+LogPluginManager: Mounting plugin XCodeSourceCodeAccess
+LogPluginManager: Mounting plugin AssetManagerEditor
+LogPluginManager: Mounting plugin CryptoKeys
+LogPluginManager: Mounting plugin CurveEditorTools
+LogPluginManager: Mounting plugin DataValidation
+LogPluginManager: Mounting plugin EditorScriptingUtilities
+LogPluginManager: Mounting plugin FacialAnimation
+LogPluginManager: Mounting plugin GameplayTagsEditor
+LogPluginManager: Mounting plugin GeometryMode
+LogPluginManager: Mounting plugin MacGraphicsSwitching
+LogPluginManager: Mounting plugin MaterialAnalyzer
+LogPluginManager: Mounting plugin MobileLauncherProfileWizard
+LogPluginManager: Mounting plugin PluginBrowser
+LogPluginManager: Mounting plugin SpeedTreeImporter
+LogPluginManager: Mounting plugin DatasmithContent
+LogPluginManager: Mounting plugin VariantManagerContent
+LogPluginManager: Mounting plugin AlembicImporter
+LogPluginManager: Mounting plugin AutomationUtils
+LogPluginManager: Mounting plugin BackChannel
+LogPluginManager: Mounting plugin ChaosCloth
+LogPluginManager: Mounting plugin ChaosClothEditor
+LogPluginManager: Mounting plugin ChaosEditor
+LogPluginManager: Mounting plugin ChaosNiagara
+LogPluginManager: Mounting plugin ChaosSolverPlugin
+LogPluginManager: Mounting plugin CharacterAI
+LogPluginManager: Mounting plugin GeometryCache
+LogPluginManager: Mounting plugin GeometryCollectionPlugin
+LogPluginManager: Mounting plugin GeometryProcessing
+LogPluginManager: Mounting plugin PlanarCut
+LogPluginManager: Mounting plugin PlatformCrypto
+LogPluginManager: Mounting plugin ProxyLODPlugin
+LogPluginManager: Mounting plugin SkeletalReduction
+LogPluginManager: Mounting plugin Niagara
+LogPluginManager: Mounting plugin MagicLeap
+LogPluginManager: Mounting plugin MagicLeapLightEstimation
+LogPluginManager: Mounting plugin MagicLeapMedia
+LogPluginManager: Mounting plugin MagicLeapPassableWorld
+LogPluginManager: Mounting plugin MLSDK
+LogPluginManager: Mounting plugin AndroidMedia
+LogPluginManager: Mounting plugin AvfMedia
+LogPluginManager: Mounting plugin ImgMedia
+LogPluginManager: Mounting plugin MediaCompositing
+LogPluginManager: Mounting plugin MediaPlayerEditor
+LogPluginManager: Mounting plugin WebMMedia
+LogPluginManager: Mounting plugin WmfMedia
+LogPluginManager: Mounting plugin MeshPainting
+LogPluginManager: Mounting plugin TcpMessaging
+LogPluginManager: Mounting plugin UdpMessaging
+LogPluginManager: Mounting plugin ActorSequence
+LogPluginManager: Mounting plugin LevelSequenceEditor
+LogPluginManager: Mounting plugin MatineeToLevelSequence
+LogPluginManager: Mounting plugin MovieRenderPipeline
+LogPluginManager: Mounting plugin TemplateSequence
+LogPluginManager: Mounting plugin NetcodeUnitTest
+LogPluginManager: Mounting plugin NUTUnrealEngine4
+LogPluginManager: Mounting plugin OnlineSubsystemGooglePlay
+LogPluginManager: Mounting plugin OnlineSubsystemIOS
+LogPluginManager: Mounting plugin OnlineSubsystem
+LogPluginManager: Mounting plugin OnlineSubsystemNull
+LogPluginManager: Mounting plugin OnlineSubsystemUtils
+LogPluginManager: Mounting plugin LauncherChunkInstaller
+LogPluginManager: Mounting plugin AndroidDeviceProfileSelector
+LogPluginManager: Mounting plugin AndroidMoviePlayer
+LogPluginManager: Mounting plugin AndroidPermission
+LogPluginManager: Mounting plugin AppleImageUtils
+LogPluginManager: Mounting plugin AppleMoviePlayer
+LogPluginManager: Mounting plugin ArchVisCharacter
+LogPluginManager: Mounting plugin AssetTags
+LogPluginManager: Mounting plugin AudioCapture
+LogPluginManager: Mounting plugin CableComponent
+LogPluginManager: Mounting plugin CustomMeshComponent
+LogPluginManager: Mounting plugin EditableMesh
+LogPluginManager: Mounting plugin ExampleDeviceProfileSelector
+LogPluginManager: Mounting plugin GoogleCloudMessaging
+LogPluginManager: Mounting plugin GooglePAD
+LogPluginManager: Mounting plugin IOSDeviceProfileSelector
+LogPluginManager: Mounting plugin LinuxDeviceProfileSelector
+LogPluginManager: Mounting plugin LocationServicesBPLibrary
+LogPluginManager: Mounting plugin MobilePatchingUtils
+LogPluginManager: Mounting plugin OculusVR
+LogPluginManager: Mounting plugin PhysXVehicles
+LogPluginManager: Mounting plugin PostSplashScreen
+LogPluginManager: Mounting plugin ProceduralMeshComponent
+LogPluginManager: Mounting plugin RuntimePhysXCooking
+LogPluginManager: Mounting plugin SignificanceManager
+LogPluginManager: Mounting plugin SoundFields
+LogPluginManager: Mounting plugin SteamVR
+LogPluginManager: Mounting plugin Synthesis
+LogPluginManager: Mounting plugin WebMMoviePlayer
+LogPluginManager: Mounting plugin WindowsMoviePlayer
+LogPluginManager: Mounting plugin ScreenshotTools
+LogInit: Using libcurl 7.55.1-DEV
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.1.1
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = true  - Libcurl will verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - MaxHostConnections = 16  - Libcurl will limit the number of connections to a host
+LogInit:  - LocalHostAddr = Default
+LogInit:  - BufferSize = 65536
+LogOnline: OSS: Creating online subsystem instance for: NULL
+LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+LogOnline: OSS: TryLoadSubsystemAndSetDefault: Loaded subsystem for module [NULL]
+LogInit: Build: ++UE4+Release-4.25-CL-14469661
+LogInit: Engine Version: 4.25.4-14469661+++UE4+Release-4.25
+LogInit: Compatible Engine Version: 4.25.0-13144385+++UE4+Release-4.25
+LogInit: Net CL: 13144385
+LogInit: OS: Windows 10 (Release 2004) (), CPU: Intel(R) Core(TM) i7-8700K CPU @ 3.70GHz, GPU: NVIDIA GeForce GTX 970
+LogInit: Compiled (64-bit): Oct 11 2020 08:10:49
+LogInit: Compiled with Visual C++: 19.24.28315.00
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.25
+LogInit: Command Line: 
+LogInit: Base Directory: D:/EpicGames/UE_4.25/Engine/Binaries/Win64/
+LogInit: Allocator: TBB
+LogInit: Installed Engine Build: 1
+LogDevObjectVersion: Number of dev versions registered: 26
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 10
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 4
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 38
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 37
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 2
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 4
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 43
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 12
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 3
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogDevObjectVersion:   Private-Geometry (6EACA3D4-40EC-4CC1-B786-8BED09428FC5): 3
+LogDevObjectVersion:   Dev-AnimPhys (29E575DD-E0A3-4627-9D10-D276232CDCEA): 17
+LogDevObjectVersion:   Dev-Anim (AF43A65D-7FD3-4947-9873-3E8ED9C1BB05): 7
+LogDevObjectVersion:   Dev-ReflectionCapture (6B266CEC-1EC7-4B8F-A30B-E4D90942FC07): 1
+LogDevObjectVersion:   Dev-Automation (0DF73D61-A23F-47EA-B727-89E90C41499A): 1
+LogDevObjectVersion:   FortniteMain (601D1886-AC64-4F84-AA16-D3DE0DEAC7D6): 31
+LogDevObjectVersion:   Dev-Enterprise (9DFFBCD6-494F-0158-E221-12823C92A888): 10
+LogDevObjectVersion:   Dev-Niagara (F2AED0AC-9AFE-416F-8664-AA7FFA26D6FC): 1
+LogDevObjectVersion:   Dev-Destruction (174F1F0B-B4C6-45A5-B13F-2EE8D0FB917D): 10
+LogDevObjectVersion:   Dev-Physics-Ext (35F94A83-E258-406C-A318-09F59610247C): 37
+LogDevObjectVersion:   Dev-PhysicsMaterial-Chaos (B68FC16E-8B1B-42E2-B453-215C058844FE): 1
+LogDevObjectVersion:   Dev-CineCamera (B2E18506-4273-CFC2-A54E-F4BB758BBA07): 1
+LogInit: Presizing for max 25165824 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogConfig: Applying CVar settings from Section [/Script/Engine.StreamingSettings] File [D:/Dropbox/_Innlandet/Game_Design/CubeLord_Adrian/Saved/Config/Windows/Engine.ini]
+LogConfig: Setting CVar [[s.MinBulkDataSizeForAsyncLoading:131072]]
+LogConfig: Setting CVar [[s.AsyncLoadingThreadEnabled:0]]
+LogConfig: Setting CVar [[s.EventDrivenLoaderEnabled:1]]
+LogConfig: Setting CVar [[s.WarnIfTimeLimitExceeded:0]]
+LogConfig: Setting CVar [[s.TimeLimitExceededMultiplier:1.5]]
+LogConfig: Setting CVar [[s.TimeLimitExceededMinTime:0.005]]
+LogConfig: Setting CVar [[s.UseBackgroundLevelStreaming:1]]
+LogConfig: Setting CVar [[s.PriorityAsyncLoadingExtraTime:15.0]]
+LogConfig: Setting CVar [[s.LevelStreamingActorsUpdateTimeLimit:5.0]]
+LogConfig: Setting CVar [[s.PriorityLevelStreamingActorsUpdateExtraTime:5.0]]
+LogConfig: Setting CVar [[s.LevelStreamingComponentsRegistrationGranularity:10]]
+LogConfig: Setting CVar [[s.UnregisterComponentsTimeLimit:1.0]]
+LogConfig: Setting CVar [[s.LevelStreamingComponentsUnregistrationGranularity:5]]
+LogConfig: Setting CVar [[s.FlushStreamingOnExit:1]]
+LogInit: Object subsystem initialized
+LogConfig: Setting CVar [[con.DebugEarlyDefault:1]]
+LogConfig: Setting CVar [[r.setres:1280x720]]
+[2021.02.19-15.31.26:992][  0]LogConfig: Setting CVar [[r.VSync:0]]
+[2021.02.19-15.31.26:992][  0]LogConfig: Setting CVar [[r.RHICmdBypass:0]]
+[2021.02.19-15.31.26:992][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererSettings] File [D:/Dropbox/_Innlandet/Game_Design/CubeLord_Adrian/Saved/Config/Windows/Engine.ini]
+[2021.02.19-15.31.26:992][  0]LogConfig: Setting CVar [[r.GPUCrashDebugging:0]]
+[2021.02.19-15.31.26:992][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererOverrideSettings] File [D:/Dropbox/_Innlandet/Game_Design/CubeLord_Adrian/Saved/Config/Windows/Engine.ini]
+[2021.02.19-15.31.26:992][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.StreamingSettings] File [D:/Dropbox/_Innlandet/Game_Design/CubeLord_Adrian/Saved/Config/Windows/Engine.ini]
+[2021.02.19-15.31.26:992][  0]LogConfig: Setting CVar [[s.MinBulkDataSizeForAsyncLoading:131072]]
+[2021.02.19-15.31.26:992][  0]LogConfig: Setting CVar [[s.AsyncLoadingThreadEnabled:0]]
+[2021.02.19-15.31.26:992][  0]LogConfig: Setting CVar [[s.EventDrivenLoaderEnabled:1]]
+[2021.02.19-15.31.26:992][  0]LogConfig: Setting CVar [[s.WarnIfTimeLimitExceeded:0]]
+[2021.02.19-15.31.26:992][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMultiplier:1.5]]
+[2021.02.19-15.31.26:992][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMinTime:0.005]]
+[2021.02.19-15.31.26:992][  0]LogConfig: Setting CVar [[s.UseBackgroundLevelStreaming:1]]
+[2021.02.19-15.31.26:992][  0]LogConfig: Setting CVar [[s.PriorityAsyncLoadingExtraTime:15.0]]
+[2021.02.19-15.31.26:992][  0]LogConfig: Setting CVar [[s.LevelStreamingActorsUpdateTimeLimit:5.0]]
+[2021.02.19-15.31.26:992][  0]LogConfig: Setting CVar [[s.PriorityLevelStreamingActorsUpdateExtraTime:5.0]]
+[2021.02.19-15.31.26:992][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsRegistrationGranularity:10]]
+[2021.02.19-15.31.26:992][  0]LogConfig: Setting CVar [[s.UnregisterComponentsTimeLimit:1.0]]
+[2021.02.19-15.31.26:992][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsUnregistrationGranularity:5]]
+[2021.02.19-15.31.26:992][  0]LogConfig: Setting CVar [[s.FlushStreamingOnExit:1]]
+[2021.02.19-15.31.26:992][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.GarbageCollectionSettings] File [D:/Dropbox/_Innlandet/Game_Design/CubeLord_Adrian/Saved/Config/Windows/Engine.ini]
+[2021.02.19-15.31.26:992][  0]LogConfig: Setting CVar [[gc.MaxObjectsNotConsideredByGC:1]]
+[2021.02.19-15.31.26:992][  0]LogConfig: Setting CVar [[gc.SizeOfPermanentObjectPool:0]]
+[2021.02.19-15.31.26:992][  0]LogConfig: Setting CVar [[gc.FlushStreamingOnGC:0]]
+[2021.02.19-15.31.26:992][  0]LogConfig: Setting CVar [[gc.NumRetriesBeforeForcingGC:10]]
+[2021.02.19-15.31.26:992][  0]LogConfig: Setting CVar [[gc.AllowParallelGC:1]]
+[2021.02.19-15.31.26:992][  0]LogConfig: Setting CVar [[gc.TimeBetweenPurgingPendingKillObjects:61.1]]
+[2021.02.19-15.31.26:992][  0]LogConfig: Setting CVar [[gc.MaxObjectsInEditor:25165824]]
+[2021.02.19-15.31.26:992][  0]LogConfig: Setting CVar [[gc.IncrementalBeginDestroyEnabled:1]]
+[2021.02.19-15.31.26:992][  0]LogConfig: Setting CVar [[gc.CreateGCClusters:1]]
+[2021.02.19-15.31.26:992][  0]LogConfig: Setting CVar [[gc.MinGCClusterSize:5]]
+[2021.02.19-15.31.26:992][  0]LogConfig: Setting CVar [[gc.ActorClusteringEnabled:0]]
+[2021.02.19-15.31.26:992][  0]LogConfig: Setting CVar [[gc.BlueprintClusteringEnabled:0]]
+[2021.02.19-15.31.26:992][  0]LogConfig: Setting CVar [[gc.UseDisregardForGCOnDedicatedServers:0]]
+[2021.02.19-15.31.26:992][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.NetworkSettings] File [D:/Dropbox/_Innlandet/Game_Design/CubeLord_Adrian/Saved/Config/Windows/Engine.ini]
+[2021.02.19-15.31.26:992][  0]LogConfig: Applying CVar settings from Section [/Script/UnrealEd.CookerSettings] File [D:/Dropbox/_Innlandet/Game_Design/CubeLord_Adrian/Saved/Config/Windows/Engine.ini]
+[2021.02.19-15.31.26:996][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [D:/Dropbox/_Innlandet/Game_Design/CubeLord_Adrian/Saved/Config/Windows/Scalability.ini]
+[2021.02.19-15.31.26:996][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
+[2021.02.19-15.31.26:996][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
+[2021.02.19-15.31.26:996][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [D:/Dropbox/_Innlandet/Game_Design/CubeLord_Adrian/Saved/Config/Windows/Scalability.ini]
+[2021.02.19-15.31.26:996][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
+[2021.02.19-15.31.26:996][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [D:/Dropbox/_Innlandet/Game_Design/CubeLord_Adrian/Saved/Config/Windows/Scalability.ini]
+[2021.02.19-15.31.26:996][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
+[2021.02.19-15.31.26:996][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
+[2021.02.19-15.31.26:996][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
+[2021.02.19-15.31.26:996][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
+[2021.02.19-15.31.26:996][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
+[2021.02.19-15.31.26:996][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
+[2021.02.19-15.31.26:996][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
+[2021.02.19-15.31.26:996][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
+[2021.02.19-15.31.26:996][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
+[2021.02.19-15.31.26:996][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
+[2021.02.19-15.31.26:996][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
+[2021.02.19-15.31.26:996][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
+[2021.02.19-15.31.26:996][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
+[2021.02.19-15.31.26:996][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
+[2021.02.19-15.31.26:996][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
+[2021.02.19-15.31.26:996][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
+[2021.02.19-15.31.26:997][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
+[2021.02.19-15.31.26:997][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
+[2021.02.19-15.31.26:997][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [D:/Dropbox/_Innlandet/Game_Design/CubeLord_Adrian/Saved/Config/Windows/Scalability.ini]
+[2021.02.19-15.31.26:997][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
+[2021.02.19-15.31.26:997][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
+[2021.02.19-15.31.26:997][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
+[2021.02.19-15.31.26:997][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
+[2021.02.19-15.31.26:997][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
+[2021.02.19-15.31.26:997][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
+[2021.02.19-15.31.26:997][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
+[2021.02.19-15.31.26:997][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
+[2021.02.19-15.31.26:997][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
+[2021.02.19-15.31.26:997][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
+[2021.02.19-15.31.26:997][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
+[2021.02.19-15.31.26:997][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
+[2021.02.19-15.31.26:997][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
+[2021.02.19-15.31.26:997][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
+[2021.02.19-15.31.26:997][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
+[2021.02.19-15.31.26:997][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
+[2021.02.19-15.31.26:997][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
+[2021.02.19-15.31.26:997][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
+[2021.02.19-15.31.26:997][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
+[2021.02.19-15.31.26:997][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
+[2021.02.19-15.31.26:997][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
+[2021.02.19-15.31.26:997][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
+[2021.02.19-15.31.26:997][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
+[2021.02.19-15.31.26:997][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
+[2021.02.19-15.31.26:997][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
+[2021.02.19-15.31.26:997][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
+[2021.02.19-15.31.26:997][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
+[2021.02.19-15.31.26:997][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
+[2021.02.19-15.31.26:997][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
+[2021.02.19-15.31.26:997][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
+[2021.02.19-15.31.26:997][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [D:/Dropbox/_Innlandet/Game_Design/CubeLord_Adrian/Saved/Config/Windows/Scalability.ini]
+[2021.02.19-15.31.26:997][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
+[2021.02.19-15.31.26:997][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
+[2021.02.19-15.31.26:997][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
+[2021.02.19-15.31.26:997][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
+[2021.02.19-15.31.26:997][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
+[2021.02.19-15.31.26:997][  0]LogConfig: Setting CVar [[r.VT.MaxAnisotropy:8]]
+[2021.02.19-15.31.26:997][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
+[2021.02.19-15.31.26:997][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
+[2021.02.19-15.31.26:997][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
+[2021.02.19-15.31.26:997][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [D:/Dropbox/_Innlandet/Game_Design/CubeLord_Adrian/Saved/Config/Windows/Scalability.ini]
+[2021.02.19-15.31.26:997][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
+[2021.02.19-15.31.26:997][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
+[2021.02.19-15.31.26:997][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
+[2021.02.19-15.31.26:997][  0]LogConfig: Setting CVar [[r.SSR.HalfResSceneColor:0]]
+[2021.02.19-15.31.26:997][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
+[2021.02.19-15.31.26:997][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
+[2021.02.19-15.31.26:997][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
+[2021.02.19-15.31.26:997][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
+[2021.02.19-15.31.26:997][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
+[2021.02.19-15.31.26:997][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
+[2021.02.19-15.31.26:997][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
+[2021.02.19-15.31.26:997][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:0]]
+[2021.02.19-15.31.26:997][  0]LogConfig: Setting CVar [[r.SSGI.Quality:3]]
+[2021.02.19-15.31.26:997][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
+[2021.02.19-15.31.26:997][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
+[2021.02.19-15.31.26:997][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.FastApplyOnOpaque:1 ; Always have FastSkyLUT 1 in this case to avoid wrong sky]]
+[2021.02.19-15.31.26:997][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.SampleCountPerSlice:1]]
+[2021.02.19-15.31.26:997][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.DepthResolution:16.0]]
+[2021.02.19-15.31.26:997][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT:1]]
+[2021.02.19-15.31.26:997][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMin:4.0]]
+[2021.02.19-15.31.26:997][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMax:32.0]]
+[2021.02.19-15.31.26:997][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMin:4.0]]
+[2021.02.19-15.31.26:997][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMax:32.0]]
+[2021.02.19-15.31.26:997][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.UseSmallFormat:0]]
+[2021.02.19-15.31.26:997][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.SampleCount:10.0]]
+[2021.02.19-15.31.26:997][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.MultiScatteringLUT.SampleCount:15.0]]
+[2021.02.19-15.31.26:997][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [D:/Dropbox/_Innlandet/Game_Design/CubeLord_Adrian/Saved/Config/Windows/Scalability.ini]
+[2021.02.19-15.31.26:997][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
+[2021.02.19-15.31.26:997][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
+[2021.02.19-15.31.26:997][  0]LogConfig: Applying CVar settings from Section [ShadingQuality@3] File [D:/Dropbox/_Innlandet/Game_Design/CubeLord_Adrian/Saved/Config/Windows/Scalability.ini]
+[2021.02.19-15.31.26:997][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.SampleCount:16]]
+[2021.02.19-15.31.26:997][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.JitterIntegration:0]]
+[2021.02.19-15.31.26:997][  0]LogConfig: Setting CVar [[r.HairStrands.SkyAO.SampleCount:16]]
+[2021.02.19-15.31.26:997][  0]LogConfig: Setting CVar [[r.HairStrands.DeepShadow.SuperSampling:0]]
+[2021.02.19-15.31.26:997][  0]LogConfig: Setting CVar [[r.HairStrands.VisibilityPPLL:0]]
+[2021.02.19-15.31.26:997][  0]LogConfig: Setting CVar [[r.HairStrands.RasterizationScale:0.5]]
+[2021.02.19-15.31.26:997][  0]LogConfig: Setting CVar [[r.HairStrands.VelocityRasterizationScale:1]]
+[2021.02.19-15.31.26:997][  0]LogInit: Selected Device Profile: [Windows]
+[2021.02.19-15.31.26:997][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2021.02.19-15.31.26:997][  0]LogHAL: Display: Platform has ~ 16 GB [17132576768 / 17179869184 / 16], which maps to Larger [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
+[2021.02.19-15.31.26:998][  0]LogInit: Going up to parent DeviceProfile []
+[2021.02.19-15.31.26:998][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [D:/Dropbox/_Innlandet/Game_Design/CubeLord_Adrian/Saved/Config/Windows/Scalability.ini]
+[2021.02.19-15.31.26:998][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
+[2021.02.19-15.31.26:998][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
+[2021.02.19-15.31.26:998][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [D:/Dropbox/_Innlandet/Game_Design/CubeLord_Adrian/Saved/Config/Windows/Scalability.ini]
+[2021.02.19-15.31.26:998][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
+[2021.02.19-15.31.26:998][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [D:/Dropbox/_Innlandet/Game_Design/CubeLord_Adrian/Saved/Config/Windows/Scalability.ini]
+[2021.02.19-15.31.26:998][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
+[2021.02.19-15.31.26:998][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
+[2021.02.19-15.31.26:998][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
+[2021.02.19-15.31.26:998][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
+[2021.02.19-15.31.26:998][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
+[2021.02.19-15.31.26:998][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
+[2021.02.19-15.31.26:998][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
+[2021.02.19-15.31.26:998][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
+[2021.02.19-15.31.26:998][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
+[2021.02.19-15.31.26:998][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
+[2021.02.19-15.31.26:998][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
+[2021.02.19-15.31.26:998][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
+[2021.02.19-15.31.26:998][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
+[2021.02.19-15.31.26:998][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
+[2021.02.19-15.31.26:998][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
+[2021.02.19-15.31.26:998][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
+[2021.02.19-15.31.26:998][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
+[2021.02.19-15.31.26:998][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
+[2021.02.19-15.31.26:998][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [D:/Dropbox/_Innlandet/Game_Design/CubeLord_Adrian/Saved/Config/Windows/Scalability.ini]
+[2021.02.19-15.31.26:998][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
+[2021.02.19-15.31.26:998][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
+[2021.02.19-15.31.26:998][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
+[2021.02.19-15.31.26:998][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
+[2021.02.19-15.31.26:998][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
+[2021.02.19-15.31.26:998][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
+[2021.02.19-15.31.26:998][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
+[2021.02.19-15.31.26:998][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
+[2021.02.19-15.31.26:998][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
+[2021.02.19-15.31.26:998][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
+[2021.02.19-15.31.26:998][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
+[2021.02.19-15.31.26:998][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
+[2021.02.19-15.31.26:998][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
+[2021.02.19-15.31.26:998][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
+[2021.02.19-15.31.26:998][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
+[2021.02.19-15.31.26:998][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
+[2021.02.19-15.31.26:998][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
+[2021.02.19-15.31.26:998][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
+[2021.02.19-15.31.26:998][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
+[2021.02.19-15.31.26:998][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
+[2021.02.19-15.31.26:998][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
+[2021.02.19-15.31.26:998][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
+[2021.02.19-15.31.26:998][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
+[2021.02.19-15.31.26:998][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
+[2021.02.19-15.31.26:998][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
+[2021.02.19-15.31.26:998][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
+[2021.02.19-15.31.26:998][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
+[2021.02.19-15.31.26:998][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
+[2021.02.19-15.31.26:998][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
+[2021.02.19-15.31.26:998][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
+[2021.02.19-15.31.26:998][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [D:/Dropbox/_Innlandet/Game_Design/CubeLord_Adrian/Saved/Config/Windows/Scalability.ini]
+[2021.02.19-15.31.26:998][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
+[2021.02.19-15.31.26:998][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
+[2021.02.19-15.31.26:998][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
+[2021.02.19-15.31.26:998][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
+[2021.02.19-15.31.26:998][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
+[2021.02.19-15.31.26:998][  0]LogConfig: Setting CVar [[r.VT.MaxAnisotropy:8]]
+[2021.02.19-15.31.26:998][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
+[2021.02.19-15.31.26:998][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
+[2021.02.19-15.31.26:998][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
+[2021.02.19-15.31.26:998][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [D:/Dropbox/_Innlandet/Game_Design/CubeLord_Adrian/Saved/Config/Windows/Scalability.ini]
+[2021.02.19-15.31.26:998][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
+[2021.02.19-15.31.26:998][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
+[2021.02.19-15.31.26:998][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
+[2021.02.19-15.31.26:998][  0]LogConfig: Setting CVar [[r.SSR.HalfResSceneColor:0]]
+[2021.02.19-15.31.26:998][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
+[2021.02.19-15.31.26:998][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
+[2021.02.19-15.31.26:998][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
+[2021.02.19-15.31.26:998][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
+[2021.02.19-15.31.26:998][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
+[2021.02.19-15.31.26:998][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
+[2021.02.19-15.31.26:998][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
+[2021.02.19-15.31.26:998][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:0]]
+[2021.02.19-15.31.26:998][  0]LogConfig: Setting CVar [[r.SSGI.Quality:3]]
+[2021.02.19-15.31.26:998][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
+[2021.02.19-15.31.26:998][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
+[2021.02.19-15.31.26:998][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.FastApplyOnOpaque:1 ; Always have FastSkyLUT 1 in this case to avoid wrong sky]]
+[2021.02.19-15.31.26:998][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.SampleCountPerSlice:1]]
+[2021.02.19-15.31.26:998][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.DepthResolution:16.0]]
+[2021.02.19-15.31.26:998][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT:1]]
+[2021.02.19-15.31.26:998][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMin:4.0]]
+[2021.02.19-15.31.26:998][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMax:32.0]]
+[2021.02.19-15.31.26:998][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMin:4.0]]
+[2021.02.19-15.31.26:999][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMax:32.0]]
+[2021.02.19-15.31.26:999][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.UseSmallFormat:0]]
+[2021.02.19-15.31.26:999][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.SampleCount:10.0]]
+[2021.02.19-15.31.26:999][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.MultiScatteringLUT.SampleCount:15.0]]
+[2021.02.19-15.31.26:999][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [D:/Dropbox/_Innlandet/Game_Design/CubeLord_Adrian/Saved/Config/Windows/Scalability.ini]
+[2021.02.19-15.31.26:999][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
+[2021.02.19-15.31.26:999][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
+[2021.02.19-15.31.26:999][  0]LogConfig: Applying CVar settings from Section [ShadingQuality@3] File [D:/Dropbox/_Innlandet/Game_Design/CubeLord_Adrian/Saved/Config/Windows/Scalability.ini]
+[2021.02.19-15.31.26:999][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.SampleCount:16]]
+[2021.02.19-15.31.26:999][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.JitterIntegration:0]]
+[2021.02.19-15.31.26:999][  0]LogConfig: Setting CVar [[r.HairStrands.SkyAO.SampleCount:16]]
+[2021.02.19-15.31.26:999][  0]LogConfig: Setting CVar [[r.HairStrands.DeepShadow.SuperSampling:0]]
+[2021.02.19-15.31.26:999][  0]LogConfig: Setting CVar [[r.HairStrands.VisibilityPPLL:0]]
+[2021.02.19-15.31.26:999][  0]LogConfig: Setting CVar [[r.HairStrands.RasterizationScale:0.5]]
+[2021.02.19-15.31.26:999][  0]LogConfig: Setting CVar [[r.HairStrands.VelocityRasterizationScale:1]]
+[2021.02.19-15.31.26:999][  0]LogConfig: Applying CVar settings from Section [Startup] File [../../../Engine/Config/ConsoleVariables.ini]
+[2021.02.19-15.31.26:999][  0]LogConfig: Setting CVar [[net.UseAdaptiveNetUpdateFrequency:0]]
+[2021.02.19-15.31.26:999][  0]LogConfig: Setting CVar [[p.chaos.AllowCreatePhysxBodies:1]]
+[2021.02.19-15.31.26:999][  0]LogConfig: Setting CVar [[fx.SkipVectorVMBackendOptimizations:1]]
+[2021.02.19-15.31.26:999][  0]LogConfig: Applying CVar settings from Section [ConsoleVariables] File [D:/Dropbox/_Innlandet/Game_Design/CubeLord_Adrian/Saved/Config/Windows/Engine.ini]
+[2021.02.19-15.31.26:999][  0]LogInit: Computer: DESKTOP-TLKAI07
+[2021.02.19-15.31.26:999][  0]LogInit: User: adria
+[2021.02.19-15.31.26:999][  0]LogInit: CPU Page size=4096, Cores=6
+[2021.02.19-15.31.26:999][  0]LogInit: High frequency timer resolution =10.000000 MHz
+[2021.02.19-15.31.26:999][  0]LogMemory: Memory total: Physical=16.0GB (16GB approx)
+[2021.02.19-15.31.26:999][  0]LogMemory: Platform Memory Stats for Windows
+[2021.02.19-15.31.26:999][  0]LogMemory: Process Physical Memory: 117.24 MB used, 117.24 MB peak
+[2021.02.19-15.31.26:999][  0]LogMemory: Process Virtual Memory: 105.38 MB used, 105.38 MB peak
+[2021.02.19-15.31.26:999][  0]LogMemory: Physical Memory: 8731.39 MB used,  7607.50 MB free, 16338.90 MB total
+[2021.02.19-15.31.26:999][  0]LogMemory: Virtual Memory: 5174.87 MB used,  134212552.00 MB free, 134217728.00 MB total
+[2021.02.19-15.31.27:005][  0]LogWindows: WindowsPlatformFeatures enabled
+[2021.02.19-15.31.27:053][  0]LogInit: Physics initialised using underlying interface: PhysX
+[2021.02.19-15.31.27:054][  0]LogInit: Using OS detected language (nb-NO).
+[2021.02.19-15.31.27:054][  0]LogInit: Using OS detected locale (nb-NO).
+[2021.02.19-15.31.27:056][  0]LogTextLocalizationManager: No localization for 'nb-NO' exists, so 'en' will be used for the language.
+[2021.02.19-15.31.27:208][  0]LogInit: Setting process to per monitor DPI aware
+[2021.02.19-15.31.27:239][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
+[2021.02.19-15.31.27:240][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
+[2021.02.19-15.31.27:355][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2021.02.19-15.31.27:355][  0]LogD3D11RHI: D3D11 min allowed feature level: 11_0
+[2021.02.19-15.31.27:355][  0]LogD3D11RHI: D3D11 max allowed feature level: 11_0
+[2021.02.19-15.31.27:355][  0]LogD3D11RHI: D3D11 adapters:
+[2021.02.19-15.31.27:423][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 970' (Feature Level 11_0)
+[2021.02.19-15.31.27:423][  0]LogD3D11RHI:       4043/0/8169 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:2, VendorId:0x10de
+[2021.02.19-15.31.27:425][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2021.02.19-15.31.27:425][  0]LogD3D11RHI:       0/0/8169 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2021.02.19-15.31.27:425][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2021.02.19-15.31.27:432][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2021.02.19-15.31.27:432][  0]LogD3D11RHI:     GPU DeviceId: 0x13c2 (for the marketing name, search the web for "GPU Device Id")
+[2021.02.19-15.31.27:432][  0]LogWindows: EnumDisplayDevices:
+[2021.02.19-15.31.27:432][  0]LogWindows:    0. 'NVIDIA GeForce GTX 970' (P:1 D:1)
+[2021.02.19-15.31.27:432][  0]LogWindows:    1. 'NVIDIA GeForce GTX 970' (P:0 D:1)
+[2021.02.19-15.31.27:433][  0]LogWindows:    2. 'NVIDIA GeForce GTX 970' (P:0 D:0)
+[2021.02.19-15.31.27:433][  0]LogWindows:    3. 'NVIDIA GeForce GTX 970' (P:0 D:0)
+[2021.02.19-15.31.27:433][  0]LogWindows: DebugString: FoundDriverCount:4 
+[2021.02.19-15.31.27:433][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 970
+[2021.02.19-15.31.27:433][  0]LogD3D11RHI:   Driver Version: 456.71 (internal:27.21.14.5671, unified:456.71)
+[2021.02.19-15.31.27:433][  0]LogD3D11RHI:      Driver Date: 9-30-2020
+[2021.02.19-15.31.27:433][  0]LogRHI: Texture pool is 2830 MB (70% of 4043 MB)
+[2021.02.19-15.31.27:481][  0]LogD3D11RHI: RHI has support for 64 bit atomics
+[2021.02.19-15.31.27:481][  0]LogD3D11RHI: Async texture creation enabled
+[2021.02.19-15.31.27:481][  0]LogD3D11RHI: Array index from any shader is supported
+[2021.02.19-15.31.27:496][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
+[2021.02.19-15.31.27:744][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'AllDesktop'
+[2021.02.19-15.31.27:763][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android'
+[2021.02.19-15.31.27:763][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ASTC'
+[2021.02.19-15.31.27:763][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_DXT'
+[2021.02.19-15.31.27:763][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC2'
+[2021.02.19-15.31.27:763][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'AndroidClient'
+[2021.02.19-15.31.27:763][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ASTCClient'
+[2021.02.19-15.31.27:763][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_DXTClient'
+[2021.02.19-15.31.27:763][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC2Client'
+[2021.02.19-15.31.27:763][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_Multi'
+[2021.02.19-15.31.27:763][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_MultiClient'
+[2021.02.19-15.31.27:783][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'IOSClient'
+[2021.02.19-15.31.27:783][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'IOS'
+[2021.02.19-15.31.27:791][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Linux'
+[2021.02.19-15.31.27:799][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxNoEditor'
+[2021.02.19-15.31.27:807][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxClient'
+[2021.02.19-15.31.27:815][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxServer'
+[2021.02.19-15.31.27:825][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxAArch64NoEditor'
+[2021.02.19-15.31.27:833][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxAArch64Client'
+[2021.02.19-15.31.27:841][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxAArch64Server'
+[2021.02.19-15.31.27:862][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Lumin'
+[2021.02.19-15.31.27:862][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LuminClient'
+[2021.02.19-15.31.27:875][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'TVOSClient'
+[2021.02.19-15.31.27:875][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'TVOS'
+[2021.02.19-15.31.27:883][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsNoEditor'
+[2021.02.19-15.31.27:891][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Windows'
+[2021.02.19-15.31.27:898][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsClient'
+[2021.02.19-15.31.27:907][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsServer'
+[2021.02.19-15.31.27:907][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2021.02.19-15.31.27:914][  0]LogAudioDebug: Display: Lib vorbis DLL was dynamically loaded.
+[2021.02.19-15.31.27:962][  0]LogShaderCompilers: Guid format shader working directory is -16 characters bigger than the processId version (../../../../../Dropbox/_Innlandet/Game_Design/CubeLord_Adrian/Intermediate/Shaders/WorkingDirectory/17664/).
+[2021.02.19-15.31.27:962][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/adria/AppData/Local/Temp/UnrealShaderWorkingDir/383BF9EC45BC0CA79435F4A5B4F81105/'.
+[2021.02.19-15.31.27:962][  0]LogXGEController: Cleaning working directory: C:/Users/adria/AppData/Local/Temp/UnrealXGEWorkingDir/
+[2021.02.19-15.31.27:962][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
+[2021.02.19-15.31.27:962][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
+[2021.02.19-15.31.27:962][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2021.02.19-15.31.28:605][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2021.02.19-15.31.28:651][  0]LogDerivedDataCache: Loaded boot cache 0.05s 75MB C:/Users/adria/AppData/Local/UnrealEngine/4.25/DerivedDataCache/Boot.ddc.
+[2021.02.19-15.31.28:651][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/adria/AppData/Local/UnrealEngine/4.25/DerivedDataCache/Boot.ddc
+[2021.02.19-15.31.28:652][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../Dropbox/_Innlandet/Game_Design/CubeLord_Adrian/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2021.02.19-15.31.28:652][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2021.02.19-15.31.28:652][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../Dropbox/_Innlandet/Game_Design/CubeLord_Adrian/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2021.02.19-15.31.28:652][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2021.02.19-15.31.28:662][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2021.02.19-15.31.28:662][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  EnterprisePak pak cache file ../../../Enterprise/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2021.02.19-15.31.28:662][  0]LogDerivedDataCache: Unable to find inner node EnterprisePak for hierarchical cache Hierarchy.
+[2021.02.19-15.31.28:663][  0]LogDerivedDataCache: Using Local data cache path C:/Users/adria/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2021.02.19-15.31.28:663][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
+[2021.02.19-15.31.28:663][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
+[2021.02.19-15.31.28:711][  0]LogSlate: Using FreeType 2.10.0
+[2021.02.19-15.31.28:711][  0]LogSlate: SlateFontServices - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2021.02.19-15.31.28:734][  0]LogAssetRegistry: FAssetRegistry took 0.0019 seconds to start up
+[2021.02.19-15.31.28:938][  0]LogInit: Selected Device Profile: [Windows]
+[2021.02.19-15.31.29:029][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2021.02.19-15.31.29:029][  0]LogMeshReduction: Using SimplygonMeshReduction for automatic skeletal mesh reduction
+[2021.02.19-15.31.29:029][  0]LogMeshReduction: Using ProxyLODMeshReduction for automatic mesh merging
+[2021.02.19-15.31.29:029][  0]LogMeshReduction: No distributed automatic mesh merging module available
+[2021.02.19-15.31.29:029][  0]LogMeshMerging: No distributed automatic mesh merging module available
+[2021.02.19-15.31.29:043][  0]LogNetVersion: CubeLord_Adrian 1.0.0, NetCL: 13144385, EngineNetVer: 14, GameNetVer: 0 (Checksum: 1803790107)
+[2021.02.19-15.31.29:386][  0]LogAISub: UAISubsystem::UAISubsystem AISubsystem (00000253614D8380), frame # 0
+[2021.02.19-15.31.29:386][  0]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (0000025361416AC0), frame # 0
+[2021.02.19-15.31.29:387][  0]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (000002536145DE00), frame # 0
+[2021.02.19-15.31.29:437][  0]LogPackageLocalizationCache: Processed 19 localized package path(s) for 1 prioritized culture(s) in 0.045521 seconds
+[2021.02.19-15.31.29:442][  0]LogUObjectArray: 15917 objects as part of root set at end of initial load.
+[2021.02.19-15.31.29:442][  0]LogUObjectAllocator: 3965568 out of 0 bytes used by permanent object pool.
+[2021.02.19-15.31.29:442][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2021.02.19-15.31.29:722][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2021.02.19-15.31.29:726][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2021.02.19-15.31.29:790][  0]SourceControl: Source control is disabled
+[2021.02.19-15.31.29:790][  0]SourceControl: Source control is disabled
+[2021.02.19-15.31.29:792][  0]SourceControl: Source control is disabled
+[2021.02.19-15.31.29:795][  0]SourceControl: Source control is disabled
+[2021.02.19-15.31.29:799][  0]SourceControl: Source control is disabled
+[2021.02.19-15.31.30:016][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2021.02.19-15.31.30:038][  0]LogAudioCaptureCore: Display: No Audio Capture implementations found. Audio input will be silent.
+[2021.02.19-15.31.30:038][  0]LogAudioCaptureCore: Display: No Audio Capture implementations found. Audio input will be silent.
+[2021.02.19-15.31.30:081][  0]LogOcInput: OculusInput pre-init called
+[2021.02.19-15.31.30:090][  0]LogWindows: Failed to load 'OVRPlugin.dll' (GetLastError=126)
+[2021.02.19-15.31.30:090][  0]LogWindows: File 'OVRPlugin.dll' does not exist
+[2021.02.19-15.31.30:138][  0]LogEngine: Initializing Engine...
+[2021.02.19-15.31.30:139][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2021.02.19-15.31.30:140][  0]LogMagicLeap: Warning: VR disabled because ZI is not enabled.  To enable, in the editor, Edit -> Project Settings -> Plugins -> Magic Leap Plugin -> Enable Zero Iteration
+[2021.02.19-15.31.30:140][  0]LogStats: UGameplayTagsManager::InitializeManager -  0.000 s
+[2021.02.19-15.31.30:262][  0]LogInit: Initializing FReadOnlyCVARCache
+[2021.02.19-15.31.30:269][  0]LogAIModule: Creating AISystem for world Untitled
+[2021.02.19-15.31.30:269][  0]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (0000025366B2FC00), frame # 0
+[2021.02.19-15.31.30:269][  0]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (0000025366B72E80), frame # 0
+[2021.02.19-15.31.30:287][  0]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.02.19-15.31.30:287][  0]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.02.19-15.31.30:287][  0]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.02.19-15.31.30:287][  0]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.02.19-15.31.30:287][  0]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2021.02.19-15.31.30:287][  0]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.02.19-15.31.30:287][  0]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.02.19-15.31.30:287][  0]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.02.19-15.31.30:287][  0]LogAudio: Display: Using built-in audio occlusion.
+[2021.02.19-15.31.30:287][  0]LogAudioMixer: Display: Initializing audio mixer.
+[2021.02.19-15.31.30:298][  0]LogAudioMixer: Display: 0: FrontLeft
+[2021.02.19-15.31.30:298][  0]LogAudioMixer: Display: 1: FrontRight
+[2021.02.19-15.31.30:329][  0]LogAudioMixer: Display: Using Audio Device Headphones (2- Arctis 7 Game)
+[2021.02.19-15.31.30:332][  0]LogAudioMixer: Display: Initializing Sound Submixes...
+[2021.02.19-15.31.30:334][  0]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2021.02.19-15.31.30:334][  0]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2021.02.19-15.31.30:335][  0]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2021.02.19-15.31.30:336][  0]LogInit: FAudioDevice initialized.
+[2021.02.19-15.31.30:336][  0]LogNetVersion: Set ProjectVersion to 1.0.0.0. Version Checksum will be recalculated on next use.
+[2021.02.19-15.31.30:401][  0]LogDerivedDataCache: Saved boot cache 0.07s 75MB C:/Users/adria/AppData/Local/UnrealEngine/4.25/DerivedDataCache/Boot.ddc.
+[2021.02.19-15.31.30:408][  0]LogInit: Texture streaming: Enabled
+[2021.02.19-15.31.30:421][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2021.02.19-15.31.30:421][  0]LogEngineSessionManager: EngineSessionManager sent abnormal shutdown report. Type=Crashed, SessionId={7546C16E-4D07-8E1A-6AEA-8EAE5F5DE4FE}
+[2021.02.19-15.31.30:421][  0]LogEditorSessionSummary: Verbose: Initializing EditorSessionSummaryWriter for editor session tracking
+[2021.02.19-15.31.30:423][  0]LogEditorSessionSummary: EditorSessionSummaryWriter initialized
+[2021.02.19-15.31.30:472][  0]LogInit: Transaction tracking system initialized
+[2021.02.19-15.31.30:492][  0]BlueprintLog: New page: Editor Load
+[2021.02.19-15.31.30:582][  0]LocalizationService: Localization service is disabled
+[2021.02.19-15.31.30:801][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2021.02.19-15.31.30:801][  0]LogFileCache: Scanning file cache for directory 'D:/Dropbox/_Innlandet/Game_Design/CubeLord_Adrian/Content/' took 0.07s
+[2021.02.19-15.31.30:801][  0]LogCook: Display: Mobile HDR setting 1
+[2021.02.19-15.31.31:078][  0]SourceControl: Source control is disabled
+[2021.02.19-15.31.31:078][  0]LogUnrealEdMisc: Loading editor; pre map load, took 4.976
+[2021.02.19-15.31.31:079][  0]Cmd: MAP LOAD FILE="../../../../../Dropbox/_Innlandet/Game_Design/CubeLord_Adrian/Content/Maps/Movement.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2021.02.19-15.31.31:079][  0]LightingResults: New page: Lighting Build
+[2021.02.19-15.31.31:079][  0]LogWorld: UWorld::CleanupWorld for Untitled, bSessionEnded=true, bCleanupResources=true
+[2021.02.19-15.31.31:079][  0]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.02.19-15.31.31:079][  0]MapCheck: New page: Map Check
+[2021.02.19-15.31.31:079][  0]LightingResults: New page: Lighting Build
+[2021.02.19-15.31.31:088][  0]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (0000025366B2FC00), frame # 0
+[2021.02.19-15.31.31:088][  0]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (0000025366B72E80), frame # 0
+[2021.02.19-15.31.31:089][  0]LogUObjectHash: Compacting FUObjectHashTables data took   0.54ms
+[2021.02.19-15.31.31:153][  0]LogAIModule: Creating AISystem for world Movement
+[2021.02.19-15.31.31:153][  0]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (0000025354630400), frame # 0
+[2021.02.19-15.31.31:153][  0]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (00000253541B0400), frame # 0
+[2021.02.19-15.31.31:156][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2021.02.19-15.31.31:166][  0]LogUObjectHash: Compacting FUObjectHashTables data took   0.96ms
+[2021.02.19-15.31.31:166][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2021.02.19-15.31.31:166][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0,087ms to complete.
+[2021.02.19-15.31.31:166][  0]LogFileHelpers: Loading map 'Movement' took 0.088
+[2021.02.19-15.31.31:169][  0]LogUnrealEdMisc: Total Editor Startup Time, took 5.066
+[2021.02.19-15.31.31:275][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.02.19-15.31.31:283][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.02.19-15.31.31:293][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.02.19-15.31.31:303][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.02.19-15.31.31:310][  0]LogCollectionManager: Loaded 0 collections in 0.000900 seconds
+[2021.02.19-15.31.31:328][  0]LogFileCache: Scanning file cache for directory 'D:/Dropbox/_Innlandet/Game_Design/CubeLord_Adrian/Saved/Collections/' took 0.00s
+[2021.02.19-15.31.31:328][  0]LogFileCache: Scanning file cache for directory 'D:/Dropbox/_Innlandet/Game_Design/CubeLord_Adrian/Content/Developers/adria/Collections/' took 0.00s
+[2021.02.19-15.31.31:328][  0]LogFileCache: Scanning file cache for directory 'D:/Dropbox/_Innlandet/Game_Design/CubeLord_Adrian/Content/Collections/' took 0.00s
+[2021.02.19-15.31.31:328][  0]LogContentBrowser: Native class hierarchy populated in 0.0109 seconds. Added 3434 classes and 824 folders.
+[2021.02.19-15.31.31:330][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0003 seconds. Added 0 classes and 0 folders.
+[2021.02.19-15.31.31:374][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0004 seconds. Added 0 classes and 0 folders.
+[2021.02.19-15.31.31:379][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0003 seconds. Added 2 classes and 0 folders.
+[2021.02.19-15.31.31:792][  0]LogSlate: Took 0.000164 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2021.02.19-15.31.31:795][  0]LogSlate: Took 0.000141 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2021.02.19-15.31.31:801][  0]LogSlate: Took 0.000106 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2021.02.19-15.31.31:866][  0]LogRenderer: Reallocating scene render targets to support 1068x576 Format 10 NumSamples 1 (Frame:1).
+[2021.02.19-15.31.31:972][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0003 seconds. Added 0 classes and 0 folders.
+[2021.02.19-15.31.31:972][  0]LogLoad: (Engine Initialization) Total time: 5.87 seconds
+[2021.02.19-15.31.31:972][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2021.02.19-15.31.32:027][  0]LogAssetRegistry: Asset discovery search completed in 3.2936 seconds
+[2021.02.19-15.31.32:031][  0]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000002 seconds (updated 0 objects)
+[2021.02.19-15.31.32:032][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2021.02.19-15.31.32:058][  0]LogSlate: Took 0.000103 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2021.02.19-15.31.34:079][231]Candidate modules for hot reload:
+[2021.02.19-15.31.34:079][231]  CubeLord_Adrian
+[2021.02.19-15.31.34:079][231]Launching UnrealBuildTool... [D:/EpicGames/UE_4.25/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=CubeLord_Adrian,6976 CubeLord_AdrianEditor Win64 Development -Project="D:/Dropbox/_Innlandet/Game_Design/CubeLord_Adrian/CubeLord_Adrian.uproject" "D:/Dropbox/_Innlandet/Game_Design/CubeLord_Adrian/CubeLord_Adrian.uproject"  -IgnoreJunk]
+[2021.02.19-15.31.34:081][231]Warning: Starting HotReload took  0.0s.
+[2021.02.19-15.31.35:049][317]CompilerResultsLog: New page: Compilation - 19. feb. 2021, 17:31:35
+[2021.02.19-15.31.35:049][317]CompilerResultsLog: ERROR: Unhandled exception: System.IO.IOException: Kan ikke utf?re den forespurte operasjonen p? en fil med en brukertilordnet del ?pen.
+[2021.02.19-15.31.35:049][317]CompilerResultsLog: 
+[2021.02.19-15.31.35:049][317]CompilerResultsLog:           ved System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+[2021.02.19-15.31.35:049][317]CompilerResultsLog:           ved System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+[2021.02.19-15.31.35:049][317]CompilerResultsLog:           ved System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+[2021.02.19-15.31.35:049][317]CompilerResultsLog:           ved System.IO.File.InternalWriteAllBytes(String path, Byte[] bytes, Boolean checkHost)
+[2021.02.19-15.31.35:049][317]CompilerResultsLog:           ved Tools.DotNETCommon.FileReference.WriteAllBytesIfDifferent(FileReference Location, Byte[] Contents) i D:\Build\++UE4\Sync\Engine\Saved\CsTools\Engine\Source\Programs\DotNETCommon\DotNETUtilities\FileReference.cs:linje 512
+[2021.02.19-15.31.35:049][317]CompilerResultsLog:           ved UnrealBuildTool.HotReload.PatchActionGraph(IEnumerable`1 Actions, Dictionary`2 OriginalFileToHotReloadFile) i D:\Build\++UE4\Sync\Engine\Source\Programs\UnrealBuildTool\System\HotReload.cs:linje 838
+[2021.02.19-15.31.35:049][317]CompilerResultsLog:           ved UnrealBuildTool.HotReload.PatchActionGraphWithNames(List`1 PrerequisiteActions, Dictionary`2 ModuleNameToSuffix, TargetMakefile Makefile) i D:\Build\++UE4\Sync\Engine\Source\Programs\UnrealBuildTool\System\HotReload.cs:linje 873
+[2021.02.19-15.31.35:049][317]CompilerResultsLog:           ved UnrealBuildTool.BuildMode.GetActionsForTarget(BuildConfiguration BuildConfiguration, TargetDescriptor TargetDescriptor, TargetMakefile Makefile) i D:\Build\++UE4\Sync\Engine\Source\Programs\UnrealBuildTool\Modes\BuildMode.cs:linje 621
+[2021.02.19-15.31.35:049][317]CompilerResultsLog:           ved UnrealBuildTool.BuildMode.Build(List`1 TargetDescriptors, BuildConfiguration BuildConfiguration, ISourceFileWorkingSet WorkingSet, BuildOptions Options, FileReference WriteOutdatedActionsFile) i D:\Build\++UE4\Sync\Engine\Source\Programs\UnrealBuildTool\Modes\BuildMode.cs:linje 277
+[2021.02.19-15.31.35:049][317]CompilerResultsLog:           ved UnrealBuildTool.BuildMode.Execute(CommandLineArguments Arguments) i D:\Build\++UE4\Sync\Engine\Source\Programs\UnrealBuildTool\Modes\BuildMode.cs:linje 219
+[2021.02.19-15.31.35:049][317]CompilerResultsLog:           ved UnrealBuildTool.UnrealBuildTool.Main(String[] ArgumentsArray) i D:\Build\++UE4\Sync\Engine\Source\Programs\UnrealBuildTool\UnrealBuildTool.cs:linje 550
+[2021.02.19-15.31.35:049][317]LogMainFrame: MainFrame: Module compiling took 0.973 seconds
+[2021.02.19-15.31.35:050][317]Warning: HotReload failed, recompile failed
+[2021.02.19-15.31.36:520][491]LogSlate: Took 0.000106 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/DroidSansMono.ttf' (77K)
+[2021.02.19-15.31.41:295][ 57]Candidate modules for hot reload:
+[2021.02.19-15.31.41:295][ 57]  CubeLord_Adrian
+[2021.02.19-15.31.41:295][ 57]Launching UnrealBuildTool... [D:/EpicGames/UE_4.25/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=CubeLord_Adrian,383 CubeLord_AdrianEditor Win64 Development -Project="D:/Dropbox/_Innlandet/Game_Design/CubeLord_Adrian/CubeLord_Adrian.uproject" "D:/Dropbox/_Innlandet/Game_Design/CubeLord_Adrian/CubeLord_Adrian.uproject"  -IgnoreJunk]
+[2021.02.19-15.31.41:297][ 57]Warning: Starting HotReload took  0.0s.
+[2021.02.19-15.31.43:519][292]CompilerResultsLog: New page: Compilation - 19. feb. 2021, 17:31:43
+[2021.02.19-15.31.43:519][292]CompilerResultsLog: Building CubeLord_AdrianEditor...
+[2021.02.19-15.31.43:519][292]CompilerResultsLog: Using Visual Studio 2019 14.28.29335 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29333) and Windows 10.0.18362.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2021.02.19-15.31.43:519][292]CompilerResultsLog: Building 4 actions with 12 processes...
+[2021.02.19-15.31.43:519][292]CompilerResultsLog:   [1/4] MyCameraPawn.cpp
+[2021.02.19-15.31.43:519][292]CompilerResultsLog:   [2/4] UE4Editor-CubeLord_Adrian-0383.lib
+[2021.02.19-15.31.43:519][292]CompilerResultsLog:      Creating library D:\Dropbox\_Innlandet\Game_Design\CubeLord_Adrian\Intermediate\Build\Win64\UE4Editor\Development\CubeLord_Adrian\UE4Editor-CubeLord_Adrian-0383.lib and object D:\Dropbox\_Innlandet\Game_Design\CubeLord_Adrian\Intermediate\Build\Win64\UE4Editor\Development\CubeLord_Adrian\UE4Editor-CubeLord_Adrian-0383.exp
+[2021.02.19-15.31.43:519][292]CompilerResultsLog:   [3/4] UE4Editor-CubeLord_Adrian-0383.dll
+[2021.02.19-15.31.43:519][292]CompilerResultsLog:      Creating library D:\Dropbox\_Innlandet\Game_Design\CubeLord_Adrian\Intermediate\Build\Win64\UE4Editor\Development\CubeLord_Adrian\UE4Editor-CubeLord_Adrian-0383.suppressed.lib and object D:\Dropbox\_Innlandet\Game_Design\CubeLord_Adrian\Intermediate\Build\Win64\UE4Editor\Development\CubeLord_Adrian\UE4Editor-CubeLord_Adrian-0383.suppressed.exp
+[2021.02.19-15.31.43:519][292]CompilerResultsLog:   [4/4] CubeLord_AdrianEditor.target
+[2021.02.19-15.31.43:519][292]CompilerResultsLog: Total time in Parallel executor: 1,59 seconds
+[2021.02.19-15.31.43:519][292]CompilerResultsLog: Total execution time: 2,12 seconds
+[2021.02.19-15.31.43:519][292]LogMainFrame: MainFrame: Module compiling took 2.228 seconds
+[2021.02.19-15.31.43:536][292]LogContentBrowser: Native class hierarchy populated in 0.0111 seconds. Added 3434 classes and 824 folders.
+[2021.02.19-15.31.43:536][292]Display: HotReload took  2.2s.
+[2021.02.19-15.31.49:989][ 65]Candidate modules for hot reload:
+[2021.02.19-15.31.49:989][ 65]  CubeLord_Adrian
+[2021.02.19-15.31.49:989][ 65]Launching UnrealBuildTool... [D:/EpicGames/UE_4.25/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=CubeLord_Adrian,248 CubeLord_AdrianEditor Win64 Development -Project="D:/Dropbox/_Innlandet/Game_Design/CubeLord_Adrian/CubeLord_Adrian.uproject" "D:/Dropbox/_Innlandet/Game_Design/CubeLord_Adrian/CubeLord_Adrian.uproject"  -IgnoreJunk]
+[2021.02.19-15.31.49:991][ 65]Warning: Starting HotReload took  0.0s.
+[2021.02.19-15.31.51:814][135]CompilerResultsLog: New page: Compilation - 19. feb. 2021, 17:31:51
+[2021.02.19-15.31.51:814][135]CompilerResultsLog: Building CubeLord_AdrianEditor...
+[2021.02.19-15.31.51:814][135]CompilerResultsLog: Using Visual Studio 2019 14.28.29335 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29333) and Windows 10.0.18362.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2021.02.19-15.31.51:814][135]CompilerResultsLog: Building 3 actions with 12 processes...
+[2021.02.19-15.31.51:814][135]CompilerResultsLog:   [1/3] UE4Editor-CubeLord_Adrian-0248.lib
+[2021.02.19-15.31.51:815][135]CompilerResultsLog:      Creating library D:\Dropbox\_Innlandet\Game_Design\CubeLord_Adrian\Intermediate\Build\Win64\UE4Editor\Development\CubeLord_Adrian\UE4Editor-CubeLord_Adrian-0248.lib and object D:\Dropbox\_Innlandet\Game_Design\CubeLord_Adrian\Intermediate\Build\Win64\UE4Editor\Development\CubeLord_Adrian\UE4Editor-CubeLord_Adrian-0248.exp
+[2021.02.19-15.31.51:815][135]CompilerResultsLog:   [2/3] UE4Editor-CubeLord_Adrian-0248.dll
+[2021.02.19-15.31.51:815][135]CompilerResultsLog:      Creating library D:\Dropbox\_Innlandet\Game_Design\CubeLord_Adrian\Intermediate\Build\Win64\UE4Editor\Development\CubeLord_Adrian\UE4Editor-CubeLord_Adrian-0248.suppressed.lib and object D:\Dropbox\_Innlandet\Game_Design\CubeLord_Adrian\Intermediate\Build\Win64\UE4Editor\Development\CubeLord_Adrian\UE4Editor-CubeLord_Adrian-0248.suppressed.exp
+[2021.02.19-15.31.51:815][135]CompilerResultsLog:   [3/3] CubeLord_AdrianEditor.target
+[2021.02.19-15.31.51:815][135]CompilerResultsLog: Total time in Parallel executor: 0,94 seconds
+[2021.02.19-15.31.51:815][135]CompilerResultsLog: Total execution time: 1,48 seconds
+[2021.02.19-15.31.51:815][135]LogMainFrame: MainFrame: Module compiling took 1.828 seconds
+[2021.02.19-15.31.51:827][135]LogContentBrowser: Native class hierarchy populated in 0.0077 seconds. Added 3434 classes and 824 folders.
+[2021.02.19-15.31.51:827][135]Display: HotReload took  1.8s.
+[2021.02.19-15.32.39:333][371]Candidate modules for hot reload:
+[2021.02.19-15.32.39:333][371]  CubeLord_Adrian
+[2021.02.19-15.32.39:334][371]Launching UnrealBuildTool... [D:/EpicGames/UE_4.25/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=CubeLord_Adrian,7956 CubeLord_AdrianEditor Win64 Development -Project="D:/Dropbox/_Innlandet/Game_Design/CubeLord_Adrian/CubeLord_Adrian.uproject" "D:/Dropbox/_Innlandet/Game_Design/CubeLord_Adrian/CubeLord_Adrian.uproject"  -IgnoreJunk]
+[2021.02.19-15.32.39:335][371]Warning: Starting HotReload took  0.0s.
+[2021.02.19-15.32.53:051][976]CompilerResultsLog: New page: Compilation - 19. feb. 2021, 17:32:53
+[2021.02.19-15.32.53:051][976]CompilerResultsLog: Parsing headers for CubeLord_AdrianEditor
+[2021.02.19-15.32.53:051][976]CompilerResultsLog:   Running UnrealHeaderTool "D:\Dropbox\_Innlandet\Game_Design\CubeLord_Adrian\CubeLord_Adrian.uproject" "D:\Dropbox\_Innlandet\Game_Design\CubeLord_Adrian\Intermediate\Build\Win64\CubeLord_AdrianEditor\Development\CubeLord_AdrianEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -abslog="C:\Users\adria\AppData\Local\UnrealBuildTool\Log_UHT.txt" -installed
+[2021.02.19-15.32.53:051][976]CompilerResultsLog: Reflection code generated for CubeLord_AdrianEditor in 5,4989776 seconds
+[2021.02.19-15.32.53:051][976]CompilerResultsLog: Building CubeLord_AdrianEditor...
+[2021.02.19-15.32.53:051][976]CompilerResultsLog: Using Visual Studio 2019 14.28.29335 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29333) and Windows 10.0.18362.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2021.02.19-15.32.53:051][976]CompilerResultsLog: Building 8 actions with 12 processes...
+[2021.02.19-15.32.53:051][976]CompilerResultsLog:   [1/8] CubeLord_Adrian.init.gen.cpp
+[2021.02.19-15.32.53:051][976]CompilerResultsLog:   [2/8] MyCameraPawn.cpp
+[2021.02.19-15.32.53:051][976]CompilerResultsLog:   [3/8] PlayerPawn.cpp
+[2021.02.19-15.32.53:052][976]CompilerResultsLog:   [4/8] MyCameraPawn.gen.cpp
+[2021.02.19-15.32.53:052][976]CompilerResultsLog:   [5/8] PlayerPawn.gen.cpp
+[2021.02.19-15.32.53:052][976]CompilerResultsLog:   [6/8] UE4Editor-CubeLord_Adrian-7956.lib
+[2021.02.19-15.32.53:052][976]CompilerResultsLog:      Creating library D:\Dropbox\_Innlandet\Game_Design\CubeLord_Adrian\Intermediate\Build\Win64\UE4Editor\Development\CubeLord_Adrian\UE4Editor-CubeLord_Adrian-7956.lib and object D:\Dropbox\_Innlandet\Game_Design\CubeLord_Adrian\Intermediate\Build\Win64\UE4Editor\Development\CubeLord_Adrian\UE4Editor-CubeLord_Adrian-7956.exp
+[2021.02.19-15.32.53:052][976]CompilerResultsLog:   [7/8] UE4Editor-CubeLord_Adrian-7956.dll
+[2021.02.19-15.32.53:052][976]CompilerResultsLog:      Creating library D:\Dropbox\_Innlandet\Game_Design\CubeLord_Adrian\Intermediate\Build\Win64\UE4Editor\Development\CubeLord_Adrian\UE4Editor-CubeLord_Adrian-7956.suppressed.lib and object D:\Dropbox\_Innlandet\Game_Design\CubeLord_Adrian\Intermediate\Build\Win64\UE4Editor\Development\CubeLord_Adrian\UE4Editor-CubeLord_Adrian-7956.suppressed.exp
+[2021.02.19-15.32.53:052][976]CompilerResultsLog:   [8/8] CubeLord_AdrianEditor.target
+[2021.02.19-15.32.53:052][976]CompilerResultsLog: Total time in Parallel executor: 7,41 seconds
+[2021.02.19-15.32.53:052][976]CompilerResultsLog: Total execution time: 13,62 seconds
+[2021.02.19-15.32.53:052][976]LogMainFrame: MainFrame: Module compiling took 13.721 seconds
+[2021.02.19-15.32.53:077][976]LogClass: Could not find existing class MyCameraPawn in package /Script/CubeLord_Adrian for HotReload, assuming new class
+[2021.02.19-15.32.53:082][976]LogHotReload: Re-instancing MyCameraPawn after hot-reload.
+[2021.02.19-15.32.53:093][976]LogContentBrowser: Native class hierarchy updated for 'CubeLord_Adrian' in 0.0003 seconds. Added 7 classes and 3 folders.
+[2021.02.19-15.32.53:094][976]Display: HotReload successful (0 functions remapped  0 scriptstructs remapped)
+[2021.02.19-15.32.53:128][976]LogContentBrowser: Native class hierarchy populated in 0.0074 seconds. Added 3434 classes and 824 folders.
+[2021.02.19-15.32.53:128][976]Display: HotReload took 13.8s.
+[2021.02.19-15.32.55:097][210]Candidate modules for hot reload:
+[2021.02.19-15.32.55:097][210]  CubeLord_Adrian
+[2021.02.19-15.32.55:097][210]Launching UnrealBuildTool... [D:/EpicGames/UE_4.25/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=CubeLord_Adrian,851 CubeLord_AdrianEditor Win64 Development -Project="D:/Dropbox/_Innlandet/Game_Design/CubeLord_Adrian/CubeLord_Adrian.uproject" "D:/Dropbox/_Innlandet/Game_Design/CubeLord_Adrian/CubeLord_Adrian.uproject"  -IgnoreJunk]
+[2021.02.19-15.32.55:098][210]Warning: Starting HotReload took  0.0s.
+[2021.02.19-15.32.57:211][432]CompilerResultsLog: New page: Compilation - 19. feb. 2021, 17:32:57
+[2021.02.19-15.32.57:211][432]CompilerResultsLog: Building CubeLord_AdrianEditor...
+[2021.02.19-15.32.57:211][432]CompilerResultsLog: Using Visual Studio 2019 14.28.29335 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29333) and Windows 10.0.18362.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2021.02.19-15.32.57:211][432]CompilerResultsLog: Building 3 actions with 12 processes...
+[2021.02.19-15.32.57:211][432]CompilerResultsLog:   [1/3] UE4Editor-CubeLord_Adrian-0851.lib
+[2021.02.19-15.32.57:211][432]CompilerResultsLog:      Creating library D:\Dropbox\_Innlandet\Game_Design\CubeLord_Adrian\Intermediate\Build\Win64\UE4Editor\Development\CubeLord_Adrian\UE4Editor-CubeLord_Adrian-0851.lib and object D:\Dropbox\_Innlandet\Game_Design\CubeLord_Adrian\Intermediate\Build\Win64\UE4Editor\Development\CubeLord_Adrian\UE4Editor-CubeLord_Adrian-0851.exp
+[2021.02.19-15.32.57:211][432]CompilerResultsLog:   [2/3] UE4Editor-CubeLord_Adrian-0851.dll
+[2021.02.19-15.32.57:211][432]CompilerResultsLog:      Creating library D:\Dropbox\_Innlandet\Game_Design\CubeLord_Adrian\Intermediate\Build\Win64\UE4Editor\Development\CubeLord_Adrian\UE4Editor-CubeLord_Adrian-0851.suppressed.lib and object D:\Dropbox\_Innlandet\Game_Design\CubeLord_Adrian\Intermediate\Build\Win64\UE4Editor\Development\CubeLord_Adrian\UE4Editor-CubeLord_Adrian-0851.suppressed.exp
+[2021.02.19-15.32.57:211][432]CompilerResultsLog:   [3/3] CubeLord_AdrianEditor.target
+[2021.02.19-15.32.57:211][432]CompilerResultsLog: Total time in Parallel executor: 1,45 seconds
+[2021.02.19-15.32.57:211][432]CompilerResultsLog: Total execution time: 2,03 seconds
+[2021.02.19-15.32.57:211][432]LogMainFrame: MainFrame: Module compiling took 2.117 seconds
+[2021.02.19-15.32.57:227][432]LogContentBrowser: Native class hierarchy populated in 0.0114 seconds. Added 3434 classes and 824 folders.
+[2021.02.19-15.32.57:227][432]Display: HotReload took  2.1s.
+[2021.02.19-15.44.25:430][624]LogSlate: Took 0.000109 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2021.02.19-15.44.25:448][624]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/Movement" FILE="../../../../../Dropbox/_Innlandet/Game_Design/CubeLord_Adrian/Content/Maps/Movement.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2021.02.19-15.44.25:458][624]LogUObjectHash: Compacting FUObjectHashTables data took   0.66ms
+[2021.02.19-15.44.25:481][624]LogSavePackage: Moving '../../../../../Dropbox/_Innlandet/Game_Design/CubeLord_Adrian/Saved/MovementBD75FE71440BF3DFD0954CB2CC829275.tmp' to '../../../../../Dropbox/_Innlandet/Game_Design/CubeLord_Adrian/Content/Maps/Movement.umap'
+[2021.02.19-15.44.25:511][624]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/Movement_BuiltData" FILE="../../../../../Dropbox/_Innlandet/Game_Design/CubeLord_Adrian/Content/Maps/Movement_BuiltData.uasset" SILENT=true
+[2021.02.19-15.44.25:529][624]LogSavePackage: Moving '../../../../../Dropbox/_Innlandet/Game_Design/CubeLord_Adrian/Saved/Movement_BuiltData6441F9E54A042EE7783099A1BF99D26B.tmp' to '../../../../../Dropbox/_Innlandet/Game_Design/CubeLord_Adrian/Content/Maps/Movement_BuiltData.uasset'
+[2021.02.19-15.44.25:542][624]AssetCheck: New page: Asset Save: multiple assets
+[2021.02.19-15.44.25:542][624]LogContentValidation: Display: Validating World /Game/Maps/Movement.Movement
+[2021.02.19-15.44.25:542][624]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/Maps/Movement_BuiltData.Movement_BuiltData
+[2021.02.19-15.44.26:833][770]LogUObjectHash: Compacting FUObjectHashTables data took   0.30ms
+[2021.02.19-15.44.28:492][965]Candidate modules for hot reload:
+[2021.02.19-15.44.28:492][965]  CubeLord_Adrian
+[2021.02.19-15.44.28:492][965]Launching UnrealBuildTool... [D:/EpicGames/UE_4.25/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=CubeLord_Adrian,6528 CubeLord_AdrianEditor Win64 Development -Project="D:/Dropbox/_Innlandet/Game_Design/CubeLord_Adrian/CubeLord_Adrian.uproject" "D:/Dropbox/_Innlandet/Game_Design/CubeLord_Adrian/CubeLord_Adrian.uproject"  -IgnoreJunk]
+[2021.02.19-15.44.28:494][965]Warning: Starting HotReload took  0.0s.
+[2021.02.19-15.44.36:276][868]CompilerResultsLog: New page: Compilation - 19. feb. 2021, 17:44:36
+[2021.02.19-15.44.36:276][868]CompilerResultsLog: Parsing headers for CubeLord_AdrianEditor
+[2021.02.19-15.44.36:276][868]CompilerResultsLog:   Running UnrealHeaderTool "D:\Dropbox\_Innlandet\Game_Design\CubeLord_Adrian\CubeLord_Adrian.uproject" "D:\Dropbox\_Innlandet\Game_Design\CubeLord_Adrian\Intermediate\Build\Win64\CubeLord_AdrianEditor\Development\CubeLord_AdrianEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -abslog="C:\Users\adria\AppData\Local\UnrealBuildTool\Log_UHT.txt" -installed
+[2021.02.19-15.44.36:276][868]CompilerResultsLog: Reflection code generated for CubeLord_AdrianEditor in 5,4228046 seconds
+[2021.02.19-15.44.36:276][868]CompilerResultsLog: Building CubeLord_AdrianEditor...
+[2021.02.19-15.44.36:276][868]CompilerResultsLog: Using Visual Studio 2019 14.28.29335 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29333) and Windows 10.0.18362.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2021.02.19-15.44.36:276][868]CompilerResultsLog: Building 6 actions with 12 processes...
+[2021.02.19-15.44.36:276][868]CompilerResultsLog:   [1/6] MyCameraPawn.cpp
+[2021.02.19-15.44.36:276][868]CompilerResultsLog:   [2/6] MyCameraPawn.gen.cpp
+[2021.02.19-15.44.36:276][868]CompilerResultsLog:   [3/6] PlayerPawn.cpp
+[2021.02.19-15.44.36:276][868]CompilerResultsLog:   [4/6] UE4Editor-CubeLord_Adrian-6528.lib
+[2021.02.19-15.44.36:276][868]CompilerResultsLog:      Creating library D:\Dropbox\_Innlandet\Game_Design\CubeLord_Adrian\Intermediate\Build\Win64\UE4Editor\Development\CubeLord_Adrian\UE4Editor-CubeLord_Adrian-6528.lib and object D:\Dropbox\_Innlandet\Game_Design\CubeLord_Adrian\Intermediate\Build\Win64\UE4Editor\Development\CubeLord_Adrian\UE4Editor-CubeLord_Adrian-6528.exp
+[2021.02.19-15.44.36:276][868]CompilerResultsLog:   [5/6] UE4Editor-CubeLord_Adrian-6528.dll
+[2021.02.19-15.44.36:277][868]CompilerResultsLog:      Creating library D:\Dropbox\_Innlandet\Game_Design\CubeLord_Adrian\Intermediate\Build\Win64\UE4Editor\Development\CubeLord_Adrian\UE4Editor-CubeLord_Adrian-6528.suppressed.lib and object D:\Dropbox\_Innlandet\Game_Design\CubeLord_Adrian\Intermediate\Build\Win64\UE4Editor\Development\CubeLord_Adrian\UE4Editor-CubeLord_Adrian-6528.suppressed.exp
+[2021.02.19-15.44.36:277][868]CompilerResultsLog:   [6/6] CubeLord_AdrianEditor.target
+[2021.02.19-15.44.36:277][868]CompilerResultsLog: Total time in Parallel executor: 1,64 seconds
+[2021.02.19-15.44.36:277][868]CompilerResultsLog: Total execution time: 7,68 seconds
+[2021.02.19-15.44.36:277][868]LogMainFrame: MainFrame: Module compiling took 7.788 seconds
+[2021.02.19-15.44.36:305][868]LogContentBrowser: Native class hierarchy updated for 'CubeLord_Adrian' in 0.0003 seconds. Added 7 classes and 3 folders.
+[2021.02.19-15.44.36:306][868]Display: HotReload successful (0 functions remapped  0 scriptstructs remapped)
+[2021.02.19-15.44.36:333][868]LogContentBrowser: Native class hierarchy populated in 0.0075 seconds. Added 3434 classes and 824 folders.
+[2021.02.19-15.44.36:333][868]Display: HotReload took  7.8s.
+[2021.02.19-15.44.36:914][937]Candidate modules for hot reload:
+[2021.02.19-15.44.36:914][937]  CubeLord_Adrian
+[2021.02.19-15.44.36:914][937]Launching UnrealBuildTool... [D:/EpicGames/UE_4.25/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=CubeLord_Adrian,1130 CubeLord_AdrianEditor Win64 Development -Project="D:/Dropbox/_Innlandet/Game_Design/CubeLord_Adrian/CubeLord_Adrian.uproject" "D:/Dropbox/_Innlandet/Game_Design/CubeLord_Adrian/CubeLord_Adrian.uproject"  -IgnoreJunk]
+[2021.02.19-15.44.36:916][937]Warning: Starting HotReload took  0.0s.
+[2021.02.19-15.44.38:645][114]CompilerResultsLog: New page: Compilation - 19. feb. 2021, 17:44:38
+[2021.02.19-15.44.38:645][114]CompilerResultsLog: Building CubeLord_AdrianEditor...
+[2021.02.19-15.44.38:645][114]CompilerResultsLog: Using Visual Studio 2019 14.28.29335 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29333) and Windows 10.0.18362.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2021.02.19-15.44.38:645][114]CompilerResultsLog: Building 3 actions with 12 processes...
+[2021.02.19-15.44.38:645][114]CompilerResultsLog:   [1/3] UE4Editor-CubeLord_Adrian-1130.lib
+[2021.02.19-15.44.38:645][114]CompilerResultsLog:      Creating library D:\Dropbox\_Innlandet\Game_Design\CubeLord_Adrian\Intermediate\Build\Win64\UE4Editor\Development\CubeLord_Adrian\UE4Editor-CubeLord_Adrian-1130.lib and object D:\Dropbox\_Innlandet\Game_Design\CubeLord_Adrian\Intermediate\Build\Win64\UE4Editor\Development\CubeLord_Adrian\UE4Editor-CubeLord_Adrian-1130.exp
+[2021.02.19-15.44.38:645][114]CompilerResultsLog:   [2/3] UE4Editor-CubeLord_Adrian-1130.dll
+[2021.02.19-15.44.38:645][114]CompilerResultsLog:      Creating library D:\Dropbox\_Innlandet\Game_Design\CubeLord_Adrian\Intermediate\Build\Win64\UE4Editor\Development\CubeLord_Adrian\UE4Editor-CubeLord_Adrian-1130.suppressed.lib and object D:\Dropbox\_Innlandet\Game_Design\CubeLord_Adrian\Intermediate\Build\Win64\UE4Editor\Development\CubeLord_Adrian\UE4Editor-CubeLord_Adrian-1130.suppressed.exp
+[2021.02.19-15.44.38:645][114]CompilerResultsLog:   [3/3] CubeLord_AdrianEditor.target
+[2021.02.19-15.44.38:645][114]CompilerResultsLog: Total time in Parallel executor: 0,97 seconds
+[2021.02.19-15.44.38:645][114]CompilerResultsLog: Total execution time: 1,64 seconds
+[2021.02.19-15.44.38:645][114]LogMainFrame: MainFrame: Module compiling took 1.734 seconds
+[2021.02.19-15.44.38:668][114]LogContentBrowser: Native class hierarchy updated for 'CubeLord_Adrian' in 0.0003 seconds. Added 7 classes and 3 folders.
+[2021.02.19-15.44.38:669][114]Display: HotReload successful (0 functions remapped  0 scriptstructs remapped)
+[2021.02.19-15.44.38:693][114]LogContentBrowser: Native class hierarchy populated in 0.0070 seconds. Added 3434 classes and 824 folders.
+[2021.02.19-15.44.38:693][114]Display: HotReload took  1.8s.
+[2021.02.19-15.46.32:664][205]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/Movement" FILE="../../../../../Dropbox/_Innlandet/Game_Design/CubeLord_Adrian/Content/Maps/Movement.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2021.02.19-15.46.32:675][205]LogUObjectHash: Compacting FUObjectHashTables data took   0.39ms
+[2021.02.19-15.46.32:690][205]LogSavePackage: Moving '../../../../../Dropbox/_Innlandet/Game_Design/CubeLord_Adrian/Saved/MovementA941BE694A7E5CB26DCDF6AD37D97259.tmp' to '../../../../../Dropbox/_Innlandet/Game_Design/CubeLord_Adrian/Content/Maps/Movement.umap'
+[2021.02.19-15.46.32:718][205]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/Movement_BuiltData" FILE="../../../../../Dropbox/_Innlandet/Game_Design/CubeLord_Adrian/Content/Maps/Movement_BuiltData.uasset" SILENT=true
+[2021.02.19-15.46.32:729][205]LogSavePackage: Moving '../../../../../Dropbox/_Innlandet/Game_Design/CubeLord_Adrian/Saved/Movement_BuiltData75AA189743F2AFBE810E02B18B191D6C.tmp' to '../../../../../Dropbox/_Innlandet/Game_Design/CubeLord_Adrian/Content/Maps/Movement_BuiltData.uasset'
+[2021.02.19-15.46.32:739][205]AssetCheck: New page: Asset Save: multiple assets
+[2021.02.19-15.46.32:739][205]LogContentValidation: Display: Validating World /Game/Maps/Movement.Movement
+[2021.02.19-15.46.32:739][205]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/Maps/Movement_BuiltData.Movement_BuiltData
+[2021.02.19-15.46.34:135][363]LogUObjectHash: Compacting FUObjectHashTables data took   0.17ms
+[2021.02.19-15.46.36:652][662]LogUObjectHash: Compacting FUObjectHashTables data took   0.18ms
+[2021.02.19-15.46.37:159][722]LogUObjectHash: Compacting FUObjectHashTables data took   0.26ms
+[2021.02.19-15.46.39:491][996]LogUObjectHash: Compacting FUObjectHashTables data took   0.17ms
+[2021.02.19-15.46.39:805][ 33]LogUObjectHash: Compacting FUObjectHashTables data took   0.19ms
+[2021.02.19-15.46.39:979][ 53]LogUObjectHash: Compacting FUObjectHashTables data took   0.25ms
+[2021.02.19-15.46.40:144][ 72]LogUObjectHash: Compacting FUObjectHashTables data took   0.27ms
+[2021.02.19-15.46.40:326][ 93]LogUObjectHash: Compacting FUObjectHashTables data took   0.19ms
+[2021.02.19-15.46.42:281][322]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/Movement" FILE="../../../../../Dropbox/_Innlandet/Game_Design/CubeLord_Adrian/Content/Maps/Movement.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2021.02.19-15.46.42:291][322]LogUObjectHash: Compacting FUObjectHashTables data took   0.19ms
+[2021.02.19-15.46.42:306][322]LogSavePackage: Moving '../../../../../Dropbox/_Innlandet/Game_Design/CubeLord_Adrian/Saved/Movement954A628548A3D83E642F308EFA173B08.tmp' to '../../../../../Dropbox/_Innlandet/Game_Design/CubeLord_Adrian/Content/Maps/Movement.umap'
+[2021.02.19-15.46.42:334][322]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/Movement_BuiltData" FILE="../../../../../Dropbox/_Innlandet/Game_Design/CubeLord_Adrian/Content/Maps/Movement_BuiltData.uasset" SILENT=true
+[2021.02.19-15.46.42:345][322]LogSavePackage: Moving '../../../../../Dropbox/_Innlandet/Game_Design/CubeLord_Adrian/Saved/Movement_BuiltData729AD7C0455BF0B7F7CA6ABB607DFDFD.tmp' to '../../../../../Dropbox/_Innlandet/Game_Design/CubeLord_Adrian/Content/Maps/Movement_BuiltData.uasset'
+[2021.02.19-15.46.42:353][322]AssetCheck: New page: Asset Save: multiple assets
+[2021.02.19-15.46.42:353][322]LogContentValidation: Display: Validating World /Game/Maps/Movement.Movement
+[2021.02.19-15.46.42:353][322]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/Maps/Movement_BuiltData.Movement_BuiltData
+[2021.02.19-15.46.42:822][377]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/Movement" FILE="../../../../../Dropbox/_Innlandet/Game_Design/CubeLord_Adrian/Content/Maps/Movement.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2021.02.19-15.46.42:832][377]LogUObjectHash: Compacting FUObjectHashTables data took   0.25ms
+[2021.02.19-15.46.42:847][377]LogSavePackage: Moving '../../../../../Dropbox/_Innlandet/Game_Design/CubeLord_Adrian/Saved/Movement5617C49A4484AB2FDFB61F99605A5732.tmp' to '../../../../../Dropbox/_Innlandet/Game_Design/CubeLord_Adrian/Content/Maps/Movement.umap'
+[2021.02.19-15.46.42:876][377]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/Movement_BuiltData" FILE="../../../../../Dropbox/_Innlandet/Game_Design/CubeLord_Adrian/Content/Maps/Movement_BuiltData.uasset" SILENT=true
+[2021.02.19-15.46.42:888][377]LogSavePackage: Moving '../../../../../Dropbox/_Innlandet/Game_Design/CubeLord_Adrian/Saved/Movement_BuiltDataCC7821E043C76617A3367EB0C425E492.tmp' to '../../../../../Dropbox/_Innlandet/Game_Design/CubeLord_Adrian/Content/Maps/Movement_BuiltData.uasset'
+[2021.02.19-15.46.42:899][377]AssetCheck: New page: Asset Save: multiple assets
+[2021.02.19-15.46.42:900][377]LogContentValidation: Display: Validating World /Game/Maps/Movement.Movement
+[2021.02.19-15.46.42:900][377]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/Maps/Movement_BuiltData.Movement_BuiltData
+[2021.02.19-15.46.43:084][398]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/Movement" FILE="../../../../../Dropbox/_Innlandet/Game_Design/CubeLord_Adrian/Content/Maps/Movement.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2021.02.19-15.46.43:094][398]LogUObjectHash: Compacting FUObjectHashTables data took   0.19ms
+[2021.02.19-15.46.43:108][398]LogSavePackage: Moving '../../../../../Dropbox/_Innlandet/Game_Design/CubeLord_Adrian/Saved/Movement48E565AD46BAF865B399B8B6D6426492.tmp' to '../../../../../Dropbox/_Innlandet/Game_Design/CubeLord_Adrian/Content/Maps/Movement.umap'
+[2021.02.19-15.46.43:136][398]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/Movement_BuiltData" FILE="../../../../../Dropbox/_Innlandet/Game_Design/CubeLord_Adrian/Content/Maps/Movement_BuiltData.uasset" SILENT=true
+[2021.02.19-15.46.43:146][398]LogSavePackage: Moving '../../../../../Dropbox/_Innlandet/Game_Design/CubeLord_Adrian/Saved/Movement_BuiltDataDD09167B46EFD70226D338874CF11F75.tmp' to '../../../../../Dropbox/_Innlandet/Game_Design/CubeLord_Adrian/Content/Maps/Movement_BuiltData.uasset'
+[2021.02.19-15.46.43:156][398]AssetCheck: New page: Asset Save: multiple assets
+[2021.02.19-15.46.43:156][398]LogContentValidation: Display: Validating World /Game/Maps/Movement.Movement
+[2021.02.19-15.46.43:156][398]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/Maps/Movement_BuiltData.Movement_BuiltData
+[2021.02.19-15.46.43:294][413]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/Movement" FILE="../../../../../Dropbox/_Innlandet/Game_Design/CubeLord_Adrian/Content/Maps/Movement.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2021.02.19-15.46.43:304][413]LogUObjectHash: Compacting FUObjectHashTables data took   0.19ms
+[2021.02.19-15.46.43:317][413]LogSavePackage: Moving '../../../../../Dropbox/_Innlandet/Game_Design/CubeLord_Adrian/Saved/MovementA54103454C9907C7288EE3B5C86CE351.tmp' to '../../../../../Dropbox/_Innlandet/Game_Design/CubeLord_Adrian/Content/Maps/Movement.umap'
+[2021.02.19-15.46.43:357][413]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/Movement_BuiltData" FILE="../../../../../Dropbox/_Innlandet/Game_Design/CubeLord_Adrian/Content/Maps/Movement_BuiltData.uasset" SILENT=true
+[2021.02.19-15.46.43:368][413]LogSavePackage: Moving '../../../../../Dropbox/_Innlandet/Game_Design/CubeLord_Adrian/Saved/Movement_BuiltData942DC0084030603045553D99EED972D0.tmp' to '../../../../../Dropbox/_Innlandet/Game_Design/CubeLord_Adrian/Content/Maps/Movement_BuiltData.uasset'
+[2021.02.19-15.46.43:374][413]AssetCheck: New page: Asset Save: multiple assets
+[2021.02.19-15.46.43:374][413]LogContentValidation: Display: Validating World /Game/Maps/Movement.Movement
+[2021.02.19-15.46.43:375][413]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/Maps/Movement_BuiltData.Movement_BuiltData
+[2021.02.19-15.46.43:509][428]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/Movement" FILE="../../../../../Dropbox/_Innlandet/Game_Design/CubeLord_Adrian/Content/Maps/Movement.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2021.02.19-15.46.43:519][428]LogUObjectHash: Compacting FUObjectHashTables data took   0.17ms
+[2021.02.19-15.46.43:533][428]LogSavePackage: Moving '../../../../../Dropbox/_Innlandet/Game_Design/CubeLord_Adrian/Saved/MovementF67D53A84663832266476985BC50E981.tmp' to '../../../../../Dropbox/_Innlandet/Game_Design/CubeLord_Adrian/Content/Maps/Movement.umap'
+[2021.02.19-15.46.43:561][428]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/Movement_BuiltData" FILE="../../../../../Dropbox/_Innlandet/Game_Design/CubeLord_Adrian/Content/Maps/Movement_BuiltData.uasset" SILENT=true
+[2021.02.19-15.46.43:573][428]LogSavePackage: Moving '../../../../../Dropbox/_Innlandet/Game_Design/CubeLord_Adrian/Saved/Movement_BuiltData1A599BE54E1AE6E82F99368F6ACCB672.tmp' to '../../../../../Dropbox/_Innlandet/Game_Design/CubeLord_Adrian/Content/Maps/Movement_BuiltData.uasset'
+[2021.02.19-15.46.43:584][428]AssetCheck: New page: Asset Save: multiple assets
+[2021.02.19-15.46.43:584][428]LogContentValidation: Display: Validating World /Game/Maps/Movement.Movement
+[2021.02.19-15.46.43:584][428]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/Maps/Movement_BuiltData.Movement_BuiltData
+[2021.02.19-15.46.43:711][442]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/Movement" FILE="../../../../../Dropbox/_Innlandet/Game_Design/CubeLord_Adrian/Content/Maps/Movement.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2021.02.19-15.46.43:721][442]LogUObjectHash: Compacting FUObjectHashTables data took   0.28ms
+[2021.02.19-15.46.43:736][442]LogSavePackage: Moving '../../../../../Dropbox/_Innlandet/Game_Design/CubeLord_Adrian/Saved/Movement2F1C90BD4EBC3C61C6AF6CAD28BFD682.tmp' to '../../../../../Dropbox/_Innlandet/Game_Design/CubeLord_Adrian/Content/Maps/Movement.umap'
+[2021.02.19-15.46.43:762][442]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/Movement_BuiltData" FILE="../../../../../Dropbox/_Innlandet/Game_Design/CubeLord_Adrian/Content/Maps/Movement_BuiltData.uasset" SILENT=true
+[2021.02.19-15.46.43:772][442]LogSavePackage: Moving '../../../../../Dropbox/_Innlandet/Game_Design/CubeLord_Adrian/Saved/Movement_BuiltDataC6643A3E4AAFE606D48E63B10EB34270.tmp' to '../../../../../Dropbox/_Innlandet/Game_Design/CubeLord_Adrian/Content/Maps/Movement_BuiltData.uasset'
+[2021.02.19-15.46.43:779][442]AssetCheck: New page: Asset Save: multiple assets
+[2021.02.19-15.46.43:780][442]LogContentValidation: Display: Validating World /Game/Maps/Movement.Movement
+[2021.02.19-15.46.43:780][442]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/Maps/Movement_BuiltData.Movement_BuiltData
+[2021.02.19-15.47.27:124][636]Candidate modules for hot reload:
+[2021.02.19-15.47.27:124][636]  CubeLord_Adrian
+[2021.02.19-15.47.27:124][636]Launching UnrealBuildTool... [D:/EpicGames/UE_4.25/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=CubeLord_Adrian,2518 CubeLord_AdrianEditor Win64 Development -Project="D:/Dropbox/_Innlandet/Game_Design/CubeLord_Adrian/CubeLord_Adrian.uproject" "D:/Dropbox/_Innlandet/Game_Design/CubeLord_Adrian/CubeLord_Adrian.uproject"  -IgnoreJunk]
+[2021.02.19-15.47.27:126][636]Warning: Starting HotReload took  0.0s.
+[2021.02.19-15.47.28:729][791]CompilerResultsLog: New page: Compilation - 19. feb. 2021, 17:47:28
+[2021.02.19-15.47.28:729][791]CompilerResultsLog: Building CubeLord_AdrianEditor...
+[2021.02.19-15.47.28:729][791]CompilerResultsLog: Using Visual Studio 2019 14.28.29335 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29333) and Windows 10.0.18362.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2021.02.19-15.47.28:729][791]CompilerResultsLog: Building 3 actions with 12 processes...
+[2021.02.19-15.47.28:729][791]CompilerResultsLog:   [1/3] UE4Editor-CubeLord_Adrian-2518.lib
+[2021.02.19-15.47.28:729][791]CompilerResultsLog:      Creating library D:\Dropbox\_Innlandet\Game_Design\CubeLord_Adrian\Intermediate\Build\Win64\UE4Editor\Development\CubeLord_Adrian\UE4Editor-CubeLord_Adrian-2518.lib and object D:\Dropbox\_Innlandet\Game_Design\CubeLord_Adrian\Intermediate\Build\Win64\UE4Editor\Development\CubeLord_Adrian\UE4Editor-CubeLord_Adrian-2518.exp
+[2021.02.19-15.47.28:729][791]CompilerResultsLog:   [2/3] UE4Editor-CubeLord_Adrian-2518.dll
+[2021.02.19-15.47.28:729][791]CompilerResultsLog:      Creating library D:\Dropbox\_Innlandet\Game_Design\CubeLord_Adrian\Intermediate\Build\Win64\UE4Editor\Development\CubeLord_Adrian\UE4Editor-CubeLord_Adrian-2518.suppressed.lib and object D:\Dropbox\_Innlandet\Game_Design\CubeLord_Adrian\Intermediate\Build\Win64\UE4Editor\Development\CubeLord_Adrian\UE4Editor-CubeLord_Adrian-2518.suppressed.exp
+[2021.02.19-15.47.28:729][791]CompilerResultsLog:   [3/3] CubeLord_AdrianEditor.target
+[2021.02.19-15.47.28:729][791]CompilerResultsLog: Total time in Parallel executor: 1,00 seconds
+[2021.02.19-15.47.28:729][791]CompilerResultsLog: Total execution time: 1,52 seconds
+[2021.02.19-15.47.28:729][791]LogMainFrame: MainFrame: Module compiling took 1.608 seconds
+[2021.02.19-15.47.28:755][791]LogContentBrowser: Native class hierarchy updated for 'CubeLord_Adrian' in 0.0003 seconds. Added 7 classes and 3 folders.
+[2021.02.19-15.47.28:756][791]Display: HotReload successful (0 functions remapped  0 scriptstructs remapped)
+[2021.02.19-15.47.28:782][791]LogContentBrowser: Native class hierarchy populated in 0.0072 seconds. Added 3434 classes and 824 folders.
+[2021.02.19-15.47.28:782][791]Display: HotReload took  1.7s.
+[2021.02.19-15.47.29:489][871]LogUObjectHash: Compacting FUObjectHashTables data took   0.35ms
+[2021.02.19-15.47.30:279][965]LogUObjectHash: Compacting FUObjectHashTables data took   0.23ms
+[2021.02.19-15.47.30:878][ 36]Candidate modules for hot reload:
+[2021.02.19-15.47.30:878][ 36]  CubeLord_Adrian
+[2021.02.19-15.47.30:878][ 36]Launching UnrealBuildTool... [D:/EpicGames/UE_4.25/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=CubeLord_Adrian,6776 CubeLord_AdrianEditor Win64 Development -Project="D:/Dropbox/_Innlandet/Game_Design/CubeLord_Adrian/CubeLord_Adrian.uproject" "D:/Dropbox/_Innlandet/Game_Design/CubeLord_Adrian/CubeLord_Adrian.uproject"  -IgnoreJunk]
+[2021.02.19-15.47.30:880][ 36]Warning: Starting HotReload took  0.0s.
+[2021.02.19-15.47.32:515][200]CompilerResultsLog: New page: Compilation - 19. feb. 2021, 17:47:32
+[2021.02.19-15.47.32:515][200]CompilerResultsLog: Building CubeLord_AdrianEditor...
+[2021.02.19-15.47.32:515][200]CompilerResultsLog: Using Visual Studio 2019 14.28.29335 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29333) and Windows 10.0.18362.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2021.02.19-15.47.32:515][200]CompilerResultsLog: Building 3 actions with 12 processes...
+[2021.02.19-15.47.32:515][200]CompilerResultsLog:   [1/3] UE4Editor-CubeLord_Adrian-6776.lib
+[2021.02.19-15.47.32:516][200]CompilerResultsLog:      Creating library D:\Dropbox\_Innlandet\Game_Design\CubeLord_Adrian\Intermediate\Build\Win64\UE4Editor\Development\CubeLord_Adrian\UE4Editor-CubeLord_Adrian-6776.lib and object D:\Dropbox\_Innlandet\Game_Design\CubeLord_Adrian\Intermediate\Build\Win64\UE4Editor\Development\CubeLord_Adrian\UE4Editor-CubeLord_Adrian-6776.exp
+[2021.02.19-15.47.32:516][200]CompilerResultsLog:   [2/3] UE4Editor-CubeLord_Adrian-6776.dll
+[2021.02.19-15.47.32:516][200]CompilerResultsLog:      Creating library D:\Dropbox\_Innlandet\Game_Design\CubeLord_Adrian\Intermediate\Build\Win64\UE4Editor\Development\CubeLord_Adrian\UE4Editor-CubeLord_Adrian-6776.suppressed.lib and object D:\Dropbox\_Innlandet\Game_Design\CubeLord_Adrian\Intermediate\Build\Win64\UE4Editor\Development\CubeLord_Adrian\UE4Editor-CubeLord_Adrian-6776.suppressed.exp
+[2021.02.19-15.47.32:516][200]CompilerResultsLog:   [3/3] CubeLord_AdrianEditor.target
+[2021.02.19-15.47.32:516][200]CompilerResultsLog: Total time in Parallel executor: 0,97 seconds
+[2021.02.19-15.47.32:516][200]CompilerResultsLog: Total execution time: 1,53 seconds
+[2021.02.19-15.47.32:516][200]LogMainFrame: MainFrame: Module compiling took 1.640 seconds
+[2021.02.19-15.47.32:527][200]LogContentBrowser: Native class hierarchy updated for 'CubeLord_Adrian' in 0.0003 seconds. Added 7 classes and 3 folders.
+[2021.02.19-15.47.32:529][200]Display: HotReload successful (0 functions remapped  0 scriptstructs remapped)
+[2021.02.19-15.47.32:556][200]LogContentBrowser: Native class hierarchy populated in 0.0075 seconds. Added 3434 classes and 824 folders.
+[2021.02.19-15.47.32:557][200]Display: HotReload took  1.7s.
+[2021.02.19-15.50.18:189][153]LogTemp: Repeating last play command: Selected Viewport
+[2021.02.19-15.50.18:208][153]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2021.02.19-15.50.18:208][153]PIE: New page: PIE session: Movement (19. feb. 2021, 17:50:18)
+[2021.02.19-15.50.18:209][153]LogOnline: OSS: Creating online subsystem instance for: NULL
+[2021.02.19-15.50.18:210][153]LogOnline: OSS: TryLoadSubsystemAndSetDefault: Loaded subsystem for module [NULL]
+[2021.02.19-15.50.18:210][153]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Movement
+[2021.02.19-15.50.18:212][153]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002008s)
+[2021.02.19-15.50.18:213][153]LogAIModule: Creating AISystem for world Movement
+[2021.02.19-15.50.18:213][153]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (00000253058C1E00), frame # 31153
+[2021.02.19-15.50.18:213][153]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (000002531D2DA700), frame # 31153
+[2021.02.19-15.50.18:213][153]LogPlayLevel: PIE: World Init took: (0.001255s)
+[2021.02.19-15.50.18:213][153]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Movement.Movement to /Game/Maps/UEDPIE_0_Movement.Movement (0.003459s)
+[2021.02.19-15.50.18:223][153]LogUObjectHash: Compacting FUObjectHashTables data took   0.74ms
+[2021.02.19-15.50.18:224][153]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.02.19-15.50.18:224][153]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.02.19-15.50.18:224][153]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.02.19-15.50.18:224][153]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.02.19-15.50.18:224][153]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2021.02.19-15.50.18:224][153]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.02.19-15.50.18:224][153]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.02.19-15.50.18:224][153]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.02.19-15.50.18:225][153]LogAudio: Display: Using built-in audio occlusion.
+[2021.02.19-15.50.18:225][153]LogAudioMixer: Display: Initializing audio mixer.
+[2021.02.19-15.50.18:229][153]LogAudioMixer: Display: 0: FrontLeft
+[2021.02.19-15.50.18:229][153]LogAudioMixer: Display: 1: FrontRight
+[2021.02.19-15.50.18:242][153]LogAudioMixer: Display: Using Audio Device Headphones (2- Arctis 7 Game)
+[2021.02.19-15.50.18:243][153]LogAudioMixer: Display: Initializing Sound Submixes...
+[2021.02.19-15.50.18:243][153]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2021.02.19-15.50.18:243][153]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2021.02.19-15.50.18:243][153]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2021.02.19-15.50.18:253][153]LogInit: FAudioDevice initialized.
+[2021.02.19-15.50.18:267][153]LogLoad: Game class is 'BP_MyCubeLord_AdrianGameModeBase_C'
+[2021.02.19-15.50.18:268][153]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Movement.Movement up for play (max tick rate 0) at 2021.02.19-16.50.18
+[2021.02.19-15.50.18:269][153]LogWorld: Bringing up level for play took: 0.000769
+[2021.02.19-15.50.18:269][153]LogOnline: OSS: Creating online subsystem instance for: :Context_3
+[2021.02.19-15.50.18:285][153]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0005 seconds. Added 20 classes and 0 folders.
+[2021.02.19-15.50.18:286][153]PIE: Server logged in
+[2021.02.19-15.50.18:287][153]PIE: Play in editor total start time 0,082 seconds.
+[2021.02.19-15.50.19:370][281]LogTemp: Warning: CamMode1
+[2021.02.19-15.50.20:061][364]LogTemp: Warning: CamMode1
+[2021.02.19-15.50.20:304][393]LogTemp: Warning: CamMode2
+[2021.02.19-15.50.20:304][393]LogTemp: Warning: Testing works
+[2021.02.19-15.50.21:837][577]LogTemp: Warning: CamMode2
+[2021.02.19-15.50.21:837][577]LogTemp: Warning: Testing works
+[2021.02.19-15.50.22:571][665]LogTemp: Warning: CamMode1
+[2021.02.19-15.50.24:205][858]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.02.19-15.50.24:205][858]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_Movement
+[2021.02.19-15.50.24:205][858]LogWorld: UWorld::CleanupWorld for Movement, bSessionEnded=true, bCleanupResources=true
+[2021.02.19-15.50.24:205][858]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.02.19-15.50.24:216][858]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2021.02.19-15.50.24:217][858]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.02.19-15.50.24:239][858]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.02.19-15.50.24:240][858]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (00000253058C1E00), frame # 31858
+[2021.02.19-15.50.24:240][858]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (000002531D2DA700), frame # 31858
+[2021.02.19-15.50.24:240][858]LogUObjectHash: Compacting FUObjectHashTables data took   0.54ms
+[2021.02.19-15.50.24:292][860]LogPlayLevel: Display: Destroying online subsystem :Context_3
+[2021.02.19-15.51.48:936][545]Candidate modules for hot reload:
+[2021.02.19-15.51.48:936][545]  CubeLord_Adrian
+[2021.02.19-15.51.48:936][545]Launching UnrealBuildTool... [D:/EpicGames/UE_4.25/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=CubeLord_Adrian,2304 CubeLord_AdrianEditor Win64 Development -Project="D:/Dropbox/_Innlandet/Game_Design/CubeLord_Adrian/CubeLord_Adrian.uproject" "D:/Dropbox/_Innlandet/Game_Design/CubeLord_Adrian/CubeLord_Adrian.uproject"  -IgnoreJunk]
+[2021.02.19-15.51.48:938][545]Warning: Starting HotReload took  0.0s.
+[2021.02.19-15.51.51:399][805]CompilerResultsLog: New page: Compilation - 19. feb. 2021, 17:51:51
+[2021.02.19-15.51.51:399][805]CompilerResultsLog: Building CubeLord_AdrianEditor...
+[2021.02.19-15.51.51:399][805]CompilerResultsLog: Using Visual Studio 2019 14.28.29335 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29333) and Windows 10.0.18362.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2021.02.19-15.51.51:399][805]CompilerResultsLog: Building 5 actions with 12 processes...
+[2021.02.19-15.51.51:399][805]CompilerResultsLog:   [1/5] MyCameraPawn.cpp
+[2021.02.19-15.51.51:399][805]CompilerResultsLog:   [2/5] PlayerPawn.cpp
+[2021.02.19-15.51.51:399][805]CompilerResultsLog:   [3/5] UE4Editor-CubeLord_Adrian-2304.lib
+[2021.02.19-15.51.51:400][805]CompilerResultsLog:      Creating library D:\Dropbox\_Innlandet\Game_Design\CubeLord_Adrian\Intermediate\Build\Win64\UE4Editor\Development\CubeLord_Adrian\UE4Editor-CubeLord_Adrian-2304.lib and object D:\Dropbox\_Innlandet\Game_Design\CubeLord_Adrian\Intermediate\Build\Win64\UE4Editor\Development\CubeLord_Adrian\UE4Editor-CubeLord_Adrian-2304.exp
+[2021.02.19-15.51.51:400][805]CompilerResultsLog:   [4/5] UE4Editor-CubeLord_Adrian-2304.dll
+[2021.02.19-15.51.51:400][805]CompilerResultsLog:      Creating library D:\Dropbox\_Innlandet\Game_Design\CubeLord_Adrian\Intermediate\Build\Win64\UE4Editor\Development\CubeLord_Adrian\UE4Editor-CubeLord_Adrian-2304.suppressed.lib and object D:\Dropbox\_Innlandet\Game_Design\CubeLord_Adrian\Intermediate\Build\Win64\UE4Editor\Development\CubeLord_Adrian\UE4Editor-CubeLord_Adrian-2304.suppressed.exp
+[2021.02.19-15.51.51:400][805]CompilerResultsLog:   [5/5] CubeLord_AdrianEditor.target
+[2021.02.19-15.51.51:400][805]CompilerResultsLog: Total time in Parallel executor: 1,73 seconds
+[2021.02.19-15.51.51:400][805]CompilerResultsLog: Total execution time: 2,35 seconds
+[2021.02.19-15.51.51:400][805]LogMainFrame: MainFrame: Module compiling took 2.468 seconds
+[2021.02.19-15.51.51:430][805]LogContentBrowser: Native class hierarchy updated for 'CubeLord_Adrian' in 0.0003 seconds. Added 7 classes and 3 folders.
+[2021.02.19-15.51.51:432][805]Display: HotReload successful (0 functions remapped  0 scriptstructs remapped)
+[2021.02.19-15.51.51:461][805]LogContentBrowser: Native class hierarchy populated in 0.0082 seconds. Added 3434 classes and 824 folders.
+[2021.02.19-15.51.51:461][805]Display: HotReload took  2.5s.
+[2021.02.19-15.51.52:893][974]LogTemp: Repeating last play command: Selected Viewport
+[2021.02.19-15.51.52:917][974]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2021.02.19-15.51.52:917][974]PIE: New page: PIE session: Movement (19. feb. 2021, 17:51:52)
+[2021.02.19-15.51.52:944][974]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Movement
+[2021.02.19-15.51.52:946][974]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001849s)
+[2021.02.19-15.51.52:947][974]LogAIModule: Creating AISystem for world Movement
+[2021.02.19-15.51.52:947][974]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (000002531CCD8800), frame # 32974
+[2021.02.19-15.51.52:947][974]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (000002531CB97C40), frame # 32974
+[2021.02.19-15.51.52:947][974]LogPlayLevel: PIE: World Init took: (0.001517s)
+[2021.02.19-15.51.52:947][974]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Movement.Movement to /Game/Maps/UEDPIE_0_Movement.Movement (0.003562s)
+[2021.02.19-15.51.52:956][974]LogUObjectHash: Compacting FUObjectHashTables data took   0.49ms
+[2021.02.19-15.51.52:957][974]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.02.19-15.51.52:957][974]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.02.19-15.51.52:957][974]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.02.19-15.51.52:957][974]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.02.19-15.51.52:958][974]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2021.02.19-15.51.52:958][974]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.02.19-15.51.52:958][974]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.02.19-15.51.52:958][974]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.02.19-15.51.52:958][974]LogAudio: Display: Using built-in audio occlusion.
+[2021.02.19-15.51.52:958][974]LogAudioMixer: Display: Initializing audio mixer.
+[2021.02.19-15.51.52:962][974]LogAudioMixer: Display: 0: FrontLeft
+[2021.02.19-15.51.52:962][974]LogAudioMixer: Display: 1: FrontRight
+[2021.02.19-15.51.52:978][974]LogAudioMixer: Display: Using Audio Device Headphones (2- Arctis 7 Game)
+[2021.02.19-15.51.52:979][974]LogAudioMixer: Display: Initializing Sound Submixes...
+[2021.02.19-15.51.52:979][974]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2021.02.19-15.51.52:979][974]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2021.02.19-15.51.52:979][974]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2021.02.19-15.51.52:992][974]LogInit: FAudioDevice initialized.
+[2021.02.19-15.51.52:998][974]LogLoad: Game class is 'BP_MyCubeLord_AdrianGameModeBase_C'
+[2021.02.19-15.51.52:999][974]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Movement.Movement up for play (max tick rate 0) at 2021.02.19-16.51.52
+[2021.02.19-15.51.53:000][974]LogWorld: Bringing up level for play took: 0.000769
+[2021.02.19-15.51.53:000][974]LogOnline: OSS: Creating online subsystem instance for: :Context_4
+[2021.02.19-15.51.53:002][974]PIE: Server logged in
+[2021.02.19-15.51.53:003][974]PIE: Play in editor total start time 0,09 seconds.
+[2021.02.19-15.51.54:197][116]LogTemp: Warning: CamMode1

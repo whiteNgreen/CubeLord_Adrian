@@ -1,0 +1,128 @@
+{
+	"version": "0.2.0",
+	"configurations": [
+		{
+			"name": "CubeLord_Adrian (Debug)",
+			"request": "launch",
+			"preLaunchTask": "CubeLord_Adrian Win64 Debug Build",
+			"program": "D:\\Dropbox\\_Innlandet\\Game_Design\\CubeLord_Adrian\\Binaries\\Win64\\UE4-Win64-Debug.exe",
+			"args": [
+			],
+			"cwd": "D:\\EpicGames\\UE_4.25",
+			"stopAtEntry": false,
+			"externalConsole": true,
+			"type": "cppvsdbg",
+			"visualizerFile": "D:\\EpicGames\\UE_4.25\\Engine\\Extras\\VisualStudioDebugging\\UE4.natvis"
+		},
+		{
+			"name": "CubeLord_Adrian (DebugGame)",
+			"request": "launch",
+			"preLaunchTask": "CubeLord_Adrian Win64 DebugGame Build",
+			"program": "D:\\Dropbox\\_Innlandet\\Game_Design\\CubeLord_Adrian\\Binaries\\Win64\\UE4-Win64-DebugGame.exe",
+			"args": [
+			],
+			"cwd": "D:\\EpicGames\\UE_4.25",
+			"stopAtEntry": false,
+			"externalConsole": true,
+			"type": "cppvsdbg",
+			"visualizerFile": "D:\\EpicGames\\UE_4.25\\Engine\\Extras\\VisualStudioDebugging\\UE4.natvis"
+		},
+		{
+			"name": "CubeLord_Adrian (Development)",
+			"request": "launch",
+			"preLaunchTask": "CubeLord_Adrian Win64 Development Build",
+			"program": "D:\\Dropbox\\_Innlandet\\Game_Design\\CubeLord_Adrian\\Binaries\\Win64\\UE4.exe",
+			"args": [
+			],
+			"cwd": "D:\\EpicGames\\UE_4.25",
+			"stopAtEntry": false,
+			"externalConsole": true,
+			"type": "cppvsdbg",
+			"visualizerFile": "D:\\EpicGames\\UE_4.25\\Engine\\Extras\\VisualStudioDebugging\\UE4.natvis"
+		},
+		{
+			"name": "CubeLord_Adrian (Shipping)",
+			"request": "launch",
+			"preLaunchTask": "CubeLord_Adrian Win64 Shipping Build",
+			"program": "D:\\Dropbox\\_Innlandet\\Game_Design\\CubeLord_Adrian\\Binaries\\Win64\\UE4-Win64-Shipping.exe",
+			"args": [
+			],
+			"cwd": "D:\\EpicGames\\UE_4.25",
+			"stopAtEntry": false,
+			"externalConsole": true,
+			"type": "cppvsdbg",
+			"visualizerFile": "D:\\EpicGames\\UE_4.25\\Engine\\Extras\\VisualStudioDebugging\\UE4.natvis"
+		},
+		{
+			"name": "CubeLord_Adrian (Test)",
+			"request": "launch",
+			"preLaunchTask": "CubeLord_Adrian Win64 Test Build",
+			"program": "D:\\Dropbox\\_Innlandet\\Game_Design\\CubeLord_Adrian\\Binaries\\Win64\\UE4-Win64-Test.exe",
+			"args": [
+			],
+			"cwd": "D:\\EpicGames\\UE_4.25",
+			"stopAtEntry": false,
+			"externalConsole": true,
+			"type": "cppvsdbg",
+			"visualizerFile": "D:\\EpicGames\\UE_4.25\\Engine\\Extras\\VisualStudioDebugging\\UE4.natvis"
+		},
+		{
+			"name": "CubeLord_AdrianEditor (Debug)",
+			"request": "launch",
+			"preLaunchTask": "CubeLord_AdrianEditor Win64 Debug Build",
+			"program": "D:\\EpicGames\\UE_4.25\\Engine\\Binaries\\Win64\\UE4Editor-Win64-Debug.exe",
+			"args": [
+				"D:\\Dropbox\\_Innlandet\\Game_Design\\CubeLord_Adrian\\CubeLord_Adrian.uproject"
+			],
+			"cwd": "D:\\EpicGames\\UE_4.25",
+			"stopAtEntry": false,
+			"externalConsole": true,
+			"type": "cppvsdbg",
+			"visualizerFile": "D:\\EpicGames\\UE_4.25\\Engine\\Extras\\VisualStudioDebugging\\UE4.natvis"
+		},
+		{
+			"name": "CubeLord_AdrianEditor (DebugGame)",
+			"request": "launch",
+			"preLaunchTask": "CubeLord_AdrianEditor Win64 DebugGame Build",
+			"program": "D:\\EpicGames\\UE_4.25\\Engine\\Binaries\\Win64\\UE4Editor-Win64-DebugGame.exe",
+			"args": [
+				"D:\\Dropbox\\_Innlandet\\Game_Design\\CubeLord_Adrian\\CubeLord_Adrian.uproject"
+			],
+			"cwd": "D:\\EpicGames\\UE_4.25",
+			"stopAtEntry": false,
+			"externalConsole": true,
+			"type": "cppvsdbg",
+			"visualizerFile": "D:\\EpicGames\\UE_4.25\\Engine\\Extras\\VisualStudioDebugging\\UE4.natvis"
+		},
+		{
+			"name": "CubeLord_AdrianEditor (Development)",
+			"request": "launch",
+			"preLaunchTask": "CubeLord_AdrianEditor Win64 Development Build",
+			"program": "D:\\EpicGames\\UE_4.25\\Engine\\Binaries\\Win64\\UE4Editor.exe",
+			"args": [
+				"D:\\Dropbox\\_Innlandet\\Game_Design\\CubeLord_Adrian\\CubeLord_Adrian.uproject"
+			],
+			"cwd": "D:\\EpicGames\\UE_4.25",
+			"stopAtEntry": false,
+			"externalConsole": true,
+			"type": "cppvsdbg",
+			"visualizerFile": "D:\\EpicGames\\UE_4.25\\Engine\\Extras\\VisualStudioDebugging\\UE4.natvis"
+		},
+		{
+			"name": "Generate Project Files",
+			"type": "clr",
+			"request": "launch",
+			"program": "D:\\EpicGames\\UE_4.25\\Engine\\Binaries\\DotNET\\UnrealBuildTool.exe",
+			"console": "externalTerminal",
+			"args": [
+				"-projectfiles",
+				"-vscode",
+				"-project=\"D:\\Dropbox\\_Innlandet\\Game_Design\\CubeLord_Adrian\\CubeLord_Adrian.uproject\"",
+				"-game",
+				"-engine"
+			],
+			"internalConsoleOptions": "openOnSessionStart",
+			"cwd": "D:\\EpicGames\\UE_4.25"
+		}
+	]
+}
